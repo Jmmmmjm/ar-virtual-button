@@ -1,0 +1,384 @@
+=================================================
+=== MINI IRON MAN LEG UPGRADE SPATIAL ANALYSIS ===
+=================================================
+ImageTarget Position: (0.00, 0.00, 0.00), LocalScale: (1.00, 1.00, 1.00)
+BoxBot_Root LocalPosition: (0.00, 0.00, 0.00), LocalRotation: (0.00, 180.00, 0.00), LocalScale: (1.00, 1.00, 1.00)
+
+--- 1. GROUND CONTACT VERIFICATION ---
+
+[LeftLeg] Details:
+  Pivot LocalPos in BoxBot_Root: (-0.011000, 0.000000, 0.000000)
+  Pivot LocalEulerAngles: (0.000, 0.000, 0.000), LocalScale: (1.000, 1.000, 1.000)
+  Boot_Chassis_Red:
+    LocalPos: (0.000000, 0.002800, 0.001500), LocalScale: (0.009800, 0.003600, 0.013500), LocalRot: (0.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.001000m, Max Y: 0.004600m, Center Y: 0.002800m
+    In ImageTarget -> Min Y: 0.001000m, Max Y: 0.004600m, Center Y: 0.002800m
+  Boot_Toe_Cap_Gold:
+    LocalPos: (0.000000, 0.002400, 0.008500), LocalScale: (0.009200, 0.002600, 0.004500), LocalRot: (350.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.000729m, Max Y: 0.004071m, Center Y: 0.002400m
+    In ImageTarget -> Min Y: 0.000729m, Max Y: 0.004071m, Center Y: 0.002400m
+  Boot_Flex_Seam:
+    LocalPos: (0.000000, 0.003600, 0.006200), LocalScale: (0.009400, 0.000800, 0.000800), LocalRot: (0.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.003200m, Max Y: 0.004000m, Center Y: 0.003600m
+    In ImageTarget -> Min Y: 0.003200m, Max Y: 0.004000m, Center Y: 0.003600m
+  Boot_Heel_Spur:
+    LocalPos: (0.000000, 0.002600, -0.006500), LocalScale: (0.008500, 0.003000, 0.003200), LocalRot: (18.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.000679m, Max Y: 0.004521m, Center Y: 0.002600m
+    In ImageTarget -> Min Y: 0.000679m, Max Y: 0.004521m, Center Y: 0.002600m
+  Boot_Tactical_Sole:
+    LocalPos: (0.000000, 0.000500, 0.001500), LocalScale: (0.010500, 0.001000, 0.016500), LocalRot: (0.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.000000m, Max Y: 0.001000m, Center Y: 0.000500m
+    In ImageTarget -> Min Y: 0.000000m, Max Y: 0.001000m, Center Y: 0.000500m
+  Boot_Repulsor_Reflector:
+    LocalPos: (0.000000, 0.000500, 0.003000), LocalScale: (0.005500, 0.000300, 0.005500), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+    In ImageTarget -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+  Boot_Repulsor_Coil:
+    LocalPos: (0.000000, 0.000450, 0.003000), LocalScale: (0.004600, 0.000250, 0.004600), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000200m, Max Y: 0.000700m, Center Y: 0.000450m
+    In ImageTarget -> Min Y: 0.000200m, Max Y: 0.000700m, Center Y: 0.000450m
+  Boot_Repulsor_Lens:
+    LocalPos: (0.000000, 0.000350, 0.003000), LocalScale: (0.003400, 0.000200, 0.003400), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+    In ImageTarget -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+  Boot_Heel_MicroThruster:
+    LocalPos: (0.000000, 0.000500, -0.004500), LocalScale: (0.002600, 0.000300, 0.002600), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+    In ImageTarget -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+  Boot_Heel_Thruster_Core:
+    LocalPos: (0.000000, 0.000350, -0.004500), LocalScale: (0.001500, 0.000200, 0.001500), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+    In ImageTarget -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+  >>> LOWEST PRIMITIVE IN ROOT: 'Boot_Tactical_Sole' at Y = 0.000000m (0.000 mm)
+  >>> LOWEST PRIMITIVE IN TARGET: 'Boot_Tactical_Sole' at Y = 0.000000m (0.000 mm)
+  >>> Ground Contact Criteria (0.0000m to 0.0002m): PASS
+
+[RightLeg] Details:
+  Pivot LocalPos in BoxBot_Root: (0.011000, 0.000000, 0.000000)
+  Pivot LocalEulerAngles: (0.000, 0.000, 0.000), LocalScale: (1.000, 1.000, 1.000)
+  Boot_Chassis_Red:
+    LocalPos: (0.000000, 0.002800, 0.001500), LocalScale: (0.009800, 0.003600, 0.013500), LocalRot: (0.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.001000m, Max Y: 0.004600m, Center Y: 0.002800m
+    In ImageTarget -> Min Y: 0.001000m, Max Y: 0.004600m, Center Y: 0.002800m
+  Boot_Toe_Cap_Gold:
+    LocalPos: (0.000000, 0.002400, 0.008500), LocalScale: (0.009200, 0.002600, 0.004500), LocalRot: (350.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.000729m, Max Y: 0.004071m, Center Y: 0.002400m
+    In ImageTarget -> Min Y: 0.000729m, Max Y: 0.004071m, Center Y: 0.002400m
+  Boot_Flex_Seam:
+    LocalPos: (0.000000, 0.003600, 0.006200), LocalScale: (0.009400, 0.000800, 0.000800), LocalRot: (0.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.003200m, Max Y: 0.004000m, Center Y: 0.003600m
+    In ImageTarget -> Min Y: 0.003200m, Max Y: 0.004000m, Center Y: 0.003600m
+  Boot_Heel_Spur:
+    LocalPos: (0.000000, 0.002600, -0.006500), LocalScale: (0.008500, 0.003000, 0.003200), LocalRot: (18.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.000679m, Max Y: 0.004521m, Center Y: 0.002600m
+    In ImageTarget -> Min Y: 0.000679m, Max Y: 0.004521m, Center Y: 0.002600m
+  Boot_Tactical_Sole:
+    LocalPos: (0.000000, 0.000500, 0.001500), LocalScale: (0.010500, 0.001000, 0.016500), LocalRot: (0.000, 0.000, 0.000)
+    In BoxBot_Root -> Min Y: 0.000000m, Max Y: 0.001000m, Center Y: 0.000500m
+    In ImageTarget -> Min Y: 0.000000m, Max Y: 0.001000m, Center Y: 0.000500m
+  Boot_Repulsor_Reflector:
+    LocalPos: (0.000000, 0.000500, 0.003000), LocalScale: (0.005500, 0.000300, 0.005500), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+    In ImageTarget -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+  Boot_Repulsor_Coil:
+    LocalPos: (0.000000, 0.000450, 0.003000), LocalScale: (0.004600, 0.000250, 0.004600), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000200m, Max Y: 0.000700m, Center Y: 0.000450m
+    In ImageTarget -> Min Y: 0.000200m, Max Y: 0.000700m, Center Y: 0.000450m
+  Boot_Repulsor_Lens:
+    LocalPos: (0.000000, 0.000350, 0.003000), LocalScale: (0.003400, 0.000200, 0.003400), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+    In ImageTarget -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+  Boot_Heel_MicroThruster:
+    LocalPos: (0.000000, 0.000500, -0.004500), LocalScale: (0.002600, 0.000300, 0.002600), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+    In ImageTarget -> Min Y: 0.000200m, Max Y: 0.000800m, Center Y: 0.000500m
+  Boot_Heel_Thruster_Core:
+    LocalPos: (0.000000, 0.000350, -0.004500), LocalScale: (0.001500, 0.000200, 0.001500), LocalRot: (0.000, 180.000, 180.000)
+    In BoxBot_Root -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+    In ImageTarget -> Min Y: 0.000150m, Max Y: 0.000550m, Center Y: 0.000350m
+  >>> LOWEST PRIMITIVE IN ROOT: 'Boot_Tactical_Sole' at Y = 0.000000m (0.000 mm)
+  >>> LOWEST PRIMITIVE IN TARGET: 'Boot_Tactical_Sole' at Y = 0.000000m (0.000 mm)
+  >>> Ground Contact Criteria (0.0000m to 0.0002m): PASS
+
+--- 2. HIP & TORSO ALIGNMENT ---
+Pelvis LocalPosition (rel to BoxBot_Root): (0.000000, 0.026000, 0.000000)
+Torso LocalPosition (rel to BoxBot_Root): (0.000000, 0.048000, 0.000000)
+Torso Entire Bounds in BoxBot_Root: Min Y = 0.030041, Max Y = 0.073000
+  Torso Child 'Chassis_Core': Min Y = 0.032000, Max Y = 0.068000, Center Y = 0.050000
+  Torso Child 'Chassis_NeckSeat': Min Y = 0.062000, Max Y = 0.066000, Center Y = 0.064000
+  Torso Child 'Pectoral_L_Clavicular': Min Y = 0.053025, Max Y = 0.063975, Center Y = 0.058500
+  Torso Child 'Pectoral_R_Clavicular': Min Y = 0.053025, Max Y = 0.063975, Center Y = 0.058500
+  Torso Child 'Pectoral_L_Sternal': Min Y = 0.045857, Max Y = 0.057143, Center Y = 0.051500
+  Torso Child 'Pectoral_R_Sternal': Min Y = 0.045857, Max Y = 0.057143, Center Y = 0.051500
+  Torso Child 'Sternal_Canyon_Bed': Min Y = 0.046000, Max Y = 0.064000, Center Y = 0.055000
+  Torso Child 'Sternal_TieBrace_Upper': Min Y = 0.061100, Max Y = 0.062900, Center Y = 0.062000
+  Torso Child 'Sternal_TieBrace_Mid': Min Y = 0.057100, Max Y = 0.058900, Center Y = 0.058000
+  Torso Child 'Sternal_Keel_Lower': Min Y = 0.046000, Max Y = 0.048000, Center Y = 0.047000
+  Torso Child 'Cowl_L_Trapezius': Min Y = 0.060079, Max Y = 0.068921, Center Y = 0.064500
+  Torso Child 'Cowl_R_Trapezius': Min Y = 0.060079, Max Y = 0.068921, Center Y = 0.064500
+  Torso Child 'Clavicle_L_Crest': Min Y = 0.060198, Max Y = 0.065802, Center Y = 0.063000
+  Torso Child 'Clavicle_R_Crest': Min Y = 0.060198, Max Y = 0.065802, Center Y = 0.063000
+  Torso Child 'Clavicle_L_GoldInset': Min Y = 0.061932, Max Y = 0.065268, Center Y = 0.063600
+  Torso Child 'Clavicle_R_GoldInset': Min Y = 0.061932, Max Y = 0.065268, Center Y = 0.063600
+  Torso Child 'Suprasternal_Collar': Min Y = 0.060162, Max Y = 0.065838, Center Y = 0.063000
+  Torso Child 'Reactor_T1_OuterBezel': Min Y = 0.047000, Max Y = 0.061000, Center Y = 0.054000
+  Torso Child 'Reactor_T1_ChamferCollar': Min Y = 0.046400, Max Y = 0.061600, Center Y = 0.054000
+  Torso Child 'Reactor_T1_Bolt_Top': Min Y = 0.059500, Max Y = 0.060700, Center Y = 0.060100
+  Torso Child 'Reactor_T1_Bolt_Bottom': Min Y = 0.047300, Max Y = 0.048500, Center Y = 0.047900
+  Torso Child 'Reactor_T1_Bolt_Left': Min Y = 0.053400, Max Y = 0.054600, Center Y = 0.054000
+  Torso Child 'Reactor_T1_Bolt_Right': Min Y = 0.053400, Max Y = 0.054600, Center Y = 0.054000
+  Torso Child 'Reactor_T2_TrenchInsulator': Min Y = 0.047900, Max Y = 0.060100, Center Y = 0.054000
+  Torso Child 'Reactor_T3_Coil_0': Min Y = 0.057500, Max Y = 0.059500, Center Y = 0.058500
+  Torso Child 'Reactor_T3_Coil_1': Min Y = 0.056450, Max Y = 0.058832, Center Y = 0.057641
+  Torso Child 'Reactor_T3_Coil_2': Min Y = 0.054463, Max Y = 0.056318, Center Y = 0.055391
+  Torso Child 'Reactor_T3_Coil_3': Min Y = 0.051682, Max Y = 0.053537, Center Y = 0.052609
+  Torso Child 'Reactor_T3_Coil_4': Min Y = 0.049168, Max Y = 0.051551, Center Y = 0.050359
+  Torso Child 'Reactor_T3_Coil_5': Min Y = 0.048500, Max Y = 0.050500, Center Y = 0.049500
+  Torso Child 'Reactor_T3_Coil_6': Min Y = 0.049168, Max Y = 0.051551, Center Y = 0.050359
+  Torso Child 'Reactor_T3_Coil_7': Min Y = 0.051682, Max Y = 0.053537, Center Y = 0.052609
+  Torso Child 'Reactor_T3_Coil_8': Min Y = 0.054463, Max Y = 0.056318, Center Y = 0.055391
+  Torso Child 'Reactor_T3_Coil_9': Min Y = 0.056450, Max Y = 0.058832, Center Y = 0.057641
+  Torso Child 'Reactor_T4_ReflectorDish': Min Y = 0.049900, Max Y = 0.058100, Center Y = 0.054000
+  Torso Child 'Reactor_T4_StarkBracket_0': Min Y = 0.055700, Max Y = 0.057900, Center Y = 0.056800
+  Torso Child 'Reactor_T4_StarkBracket_1': Min Y = 0.051530, Max Y = 0.053670, Center Y = 0.052600
+  Torso Child 'Reactor_T4_StarkBracket_2': Min Y = 0.051530, Max Y = 0.053670, Center Y = 0.052600
+  Torso Child 'ReactorCore': Min Y = 0.051600, Max Y = 0.056400, Center Y = 0.054000
+  Torso Child 'Reactor_T6_Strut_TL': Min Y = 0.055564, Max Y = 0.061436, Center Y = 0.058500
+  Torso Child 'Reactor_T6_Strut_TR': Min Y = 0.055564, Max Y = 0.061436, Center Y = 0.058500
+  Torso Child 'Reactor_T6_Strut_BL': Min Y = 0.047025, Max Y = 0.051975, Center Y = 0.049500
+  Torso Child 'Reactor_T6_Strut_BR': Min Y = 0.047025, Max Y = 0.051975, Center Y = 0.049500
+  Torso Child 'Reactor_T7_IrisRing': Min Y = 0.052500, Max Y = 0.055500, Center Y = 0.054000
+  Torso Child 'Reactor_T7_SparkNode': Min Y = 0.053250, Max Y = 0.054750, Center Y = 0.054000
+  Torso Child 'Serratus_L_Rib1_Red': Min Y = 0.047252, Max Y = 0.054748, Center Y = 0.051000
+  Torso Child 'Serratus_R_Rib1_Red': Min Y = 0.047252, Max Y = 0.054748, Center Y = 0.051000
+  Torso Child 'Serratus_L_Rib2_Gold': Min Y = 0.041876, Max Y = 0.049124, Center Y = 0.045500
+  Torso Child 'Serratus_R_Rib2_Gold': Min Y = 0.041876, Max Y = 0.049124, Center Y = 0.045500
+  Torso Child 'Serratus_L_Rib3_Red': Min Y = 0.036707, Max Y = 0.043293, Center Y = 0.040000
+  Torso Child 'Serratus_R_Rib3_Red': Min Y = 0.036707, Max Y = 0.043293, Center Y = 0.040000
+  Torso Child 'Conduit_L_Primary': Min Y = 0.030041, Max Y = 0.061959, Center Y = 0.046000
+  Torso Child 'Conduit_R_Primary': Min Y = 0.030041, Max Y = 0.061959, Center Y = 0.046000
+  Torso Child 'Conduit_L_Braided': Min Y = 0.031544, Max Y = 0.059456, Center Y = 0.045500
+  Torso Child 'Conduit_R_Braided': Min Y = 0.031544, Max Y = 0.059456, Center Y = 0.045500
+  Torso Child 'Conduit_L_Anchor': Min Y = 0.050600, Max Y = 0.052400, Center Y = 0.051500
+  Torso Child 'Conduit_R_Anchor': Min Y = 0.050600, Max Y = 0.052400, Center Y = 0.051500
+  Torso Child 'Ab_L_Epigastric': Min Y = 0.041454, Max Y = 0.045546, Center Y = 0.043500
+  Torso Child 'Ab_R_Epigastric': Min Y = 0.041454, Max Y = 0.045546, Center Y = 0.043500
+  Torso Child 'Ab_Gasket_Epigastric': Min Y = 0.040100, Max Y = 0.041900, Center Y = 0.041000
+  Torso Child 'Ab_L_Umbilical': Min Y = 0.036600, Max Y = 0.040400, Center Y = 0.038500
+  Torso Child 'Ab_R_Umbilical': Min Y = 0.036600, Max Y = 0.040400, Center Y = 0.038500
+  Torso Child 'Ab_Gasket_Umbilical': Min Y = 0.035100, Max Y = 0.036900, Center Y = 0.036000
+  Torso Child 'Ab_L_Hypogastric': Min Y = 0.032152, Max Y = 0.035448, Center Y = 0.033800
+  Torso Child 'Ab_R_Hypogastric': Min Y = 0.032152, Max Y = 0.035448, Center Y = 0.033800
+  Torso Child 'Ab_LineaAlba_Keel': Min Y = 0.031433, Max Y = 0.045567, Center Y = 0.038500
+  Torso Child 'Ab_LineaAlba_NodeUpper': Min Y = 0.040253, Max Y = 0.041747, Center Y = 0.041000
+  Torso Child 'Ab_LineaAlba_NodeMid': Min Y = 0.035253, Max Y = 0.036747, Center Y = 0.036000
+  Torso Child 'Oblique_L_Upper': Min Y = 0.038222, Max Y = 0.044778, Center Y = 0.041500
+  Torso Child 'Oblique_R_Upper': Min Y = 0.038222, Max Y = 0.044778, Center Y = 0.041500
+  Torso Child 'Oblique_L_Lower': Min Y = 0.031885, Max Y = 0.038115, Center Y = 0.035000
+  Torso Child 'Oblique_R_Lower': Min Y = 0.031885, Max Y = 0.038115, Center Y = 0.035000
+  Torso Child 'Waist_Gasket_Base': Min Y = 0.031000, Max Y = 0.034600, Center Y = 0.032800
+  Torso Child 'Spine_Vertebra_T1': Min Y = 0.059494, Max Y = 0.064506, Center Y = 0.062000
+  Torso Child 'Spine_Disc_1': Min Y = 0.058300, Max Y = 0.059700, Center Y = 0.059000
+  Torso Child 'Spine_Vertebra_T2': Min Y = 0.053616, Max Y = 0.058384, Center Y = 0.056000
+  Torso Child 'Spine_Disc_2': Min Y = 0.052300, Max Y = 0.053700, Center Y = 0.053000
+  Torso Child 'Spine_Vertebra_T3': Min Y = 0.047750, Max Y = 0.052250, Center Y = 0.050000
+  Torso Child 'Spine_Disc_3': Min Y = 0.046300, Max Y = 0.047700, Center Y = 0.047000
+  Torso Child 'Spine_Vertebra_T4': Min Y = 0.041616, Max Y = 0.046384, Center Y = 0.044000
+  Torso Child 'Spine_FluidLine_L': Min Y = 0.033000, Max Y = 0.073000, Center Y = 0.053000
+  Torso Child 'Spine_FluidLine_R': Min Y = 0.033000, Max Y = 0.073000, Center Y = 0.053000
+  Torso Child 'AirBrake_L_Shell': Min Y = 0.051970, Max Y = 0.065030, Center Y = 0.058500
+  Torso Child 'AirBrake_R_Shell': Min Y = 0.051970, Max Y = 0.065030, Center Y = 0.058500
+  Torso Child 'AirBrake_L_Ribs': Min Y = 0.052828, Max Y = 0.064172, Center Y = 0.058500
+  Torso Child 'AirBrake_R_Ribs': Min Y = 0.052828, Max Y = 0.064172, Center Y = 0.058500
+  Torso Child 'AirBrake_L_PistonCyl': Min Y = 0.052720, Max Y = 0.061280, Center Y = 0.057000
+  Torso Child 'AirBrake_L_PistonRam': Min Y = 0.055479, Max Y = 0.062121, Center Y = 0.058800
+  Torso Child 'AirBrake_R_PistonCyl': Min Y = 0.052720, Max Y = 0.061280, Center Y = 0.057000
+  Torso Child 'AirBrake_R_PistonRam': Min Y = 0.055479, Max Y = 0.062121, Center Y = 0.058800
+  Torso Child 'Thruster_L_OuterBell': Min Y = 0.043759, Max Y = 0.054241, Center Y = 0.049000
+  Torso Child 'Thruster_R_OuterBell': Min Y = 0.043759, Max Y = 0.054241, Center Y = 0.049000
+  Torso Child 'Thruster_L_Chamber': Min Y = 0.045169, Max Y = 0.053831, Center Y = 0.049500
+  Torso Child 'Thruster_R_Chamber': Min Y = 0.045169, Max Y = 0.053831, Center Y = 0.049500
+  Torso Child 'Thruster_L_CoilRing': Min Y = 0.045718, Max Y = 0.049282, Center Y = 0.047500
+  Torso Child 'Thruster_R_CoilRing': Min Y = 0.045718, Max Y = 0.049282, Center Y = 0.047500
+  Torso Child 'Thruster_L_Core': Min Y = 0.046400, Max Y = 0.049200, Center Y = 0.047800
+  Torso Child 'Thruster_R_Core': Min Y = 0.046400, Max Y = 0.049200, Center Y = 0.047800
+  Torso Child 'Thruster_L_Fairing': Min Y = 0.049082, Max Y = 0.053918, Center Y = 0.051500
+  Torso Child 'Thruster_R_Fairing': Min Y = 0.049082, Max Y = 0.053918, Center Y = 0.051500
+LeftLeg Pivot LocalPos (rel to BoxBot_Root): (-0.011000, 0.000000, 0.000000)
+RightLeg Pivot LocalPos (rel to BoxBot_Root): (0.011000, 0.000000, 0.000000)
+
+--- 3. VIRTUAL BUTTON OCCLUSION / RAYCAST CLEARANCE ---
+VBtn_Mood:
+  LocalPos rel to ImageTarget: (-0.06000, 0.00050, -0.03300)
+  Bounds in ImageTarget: Min=(-0.0710, 0.0000, -0.0440), Max=(-0.0490, 0.0035, -0.0220), Center=(-0.0600, 0.0018, -0.0330), Size=(0.0220, 0.0035, 0.0220)
+  Collider: SphereCollider, isTrigger=True, enabled=True, bounds in world=Center: (-0.06, 0.00, -0.03), Extents: (0.01, 0.01, 0.01)
+VBtn_Action:
+  LocalPos rel to ImageTarget: (0.00000, 0.00050, -0.03500)
+  Bounds in ImageTarget: Min=(-0.0110, 0.0000, -0.0460), Max=(0.0110, 0.0035, -0.0240), Center=(0.0000, 0.0018, -0.0350), Size=(0.0220, 0.0035, 0.0220)
+  Collider: SphereCollider, isTrigger=True, enabled=True, bounds in world=Center: (0.00, 0.00, -0.04), Extents: (0.01, 0.01, 0.01)
+VBtn_Sound:
+  LocalPos rel to ImageTarget: (0.06000, 0.00050, -0.03300)
+  Bounds in ImageTarget: Min=(0.0490, 0.0000, -0.0440), Max=(0.0710, 0.0035, -0.0220), Center=(0.0600, 0.0018, -0.0330), Size=(0.0220, 0.0035, 0.0220)
+  Collider: SphereCollider, isTrigger=True, enabled=True, bounds in world=Center: (0.06, 0.00, -0.03), Extents: (0.01, 0.01, 0.01)
+
+LeftLeg Bounds in ImageTarget Space: Min=(0.0053, 0.0000, -0.0109), Max=(0.0174, 0.0267, 0.0093), Size=(0.0121, 0.0267, 0.0202)
+RightLeg Bounds in ImageTarget Space: Min=(-0.0174, 0.0000, -0.0109), Max=(-0.0053, 0.0267, 0.0093), Size=(0.0121, 0.0267, 0.0202)
+Combined Legs Bounds (ImageTarget space): X=[-0.0174, 0.0174], Z=[-0.0109, 0.0093]
+Clearance from Leg Envelope to VBtn_Mood:
+  dx = 0.0316m (3.16 cm), dz = 0.0111m (1.11 cm) -> 2D Radial Gap = 0.0335m (3.35 cm)
+  Occlusion / Raycast Safety: SAFE (Generous Clearance)
+Clearance from Leg Envelope to VBtn_Action:
+  dx = 0.0000m (0.00 cm), dz = 0.0131m (1.31 cm) -> 2D Radial Gap = 0.0131m (1.31 cm)
+  Occlusion / Raycast Safety: WARNING: Potential overlap or tight clearance
+Clearance from Leg Envelope to VBtn_Sound:
+  dx = 0.0316m (3.16 cm), dz = 0.0111m (1.11 cm) -> 2D Radial Gap = 0.0335m (3.35 cm)
+  Occlusion / Raycast Safety: SAFE (Generous Clearance)
+
+--- 4. SYMMETRY, TRANSFORM HIERARCHY & COLLIDERS ---
+Comparing LeftLeg vs RightLeg children transforms:
+  [Thigh_Proximal_Collar]
+    Left:  pos=(0.0000, 0.0242, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0105, 0.0018, 0.0105)
+    Right: pos=(0.0000, 0.0242, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0105, 0.0018, 0.0105)
+  [Thigh_Actuator_Hydraulic]
+    Left:  pos=(-0.0025, 0.0230, 0.0028) rot=(12.0, 0.0, 352.0) scale=(0.0022, 0.0035, 0.0022)
+    Right: pos=(0.0025, 0.0230, 0.0028) rot=(12.0, 0.0, 8.0) scale=(0.0022, 0.0035, 0.0022)
+  [Thigh_Actuator_Rod]
+    Left:  pos=(-0.0022, 0.0205, 0.0032) rot=(12.0, 0.0, 352.0) scale=(0.0014, 0.0030, 0.0014)
+    Right: pos=(0.0022, 0.0205, 0.0032) rot=(12.0, 0.0, 8.0) scale=(0.0014, 0.0030, 0.0014)
+  [Thigh_Rectus_Femoris_Main]
+    Left:  pos=(0.0000, 0.0205, 0.0042) rot=(8.0, 0.0, 0.0) scale=(0.0075, 0.0065, 0.0035)
+    Right: pos=(0.0000, 0.0205, 0.0042) rot=(8.0, 0.0, 0.0) scale=(0.0075, 0.0065, 0.0035)
+  [Thigh_Rectus_Femoris_Ridge]
+    Left:  pos=(0.0000, 0.0205, 0.0058) rot=(8.0, 0.0, 0.0) scale=(0.0018, 0.0062, 0.0012)
+    Right: pos=(0.0000, 0.0205, 0.0058) rot=(8.0, 0.0, 0.0) scale=(0.0018, 0.0062, 0.0012)
+  [Thigh_Vastus_Lateralis]
+    Left:  pos=(-0.0040, 0.0208, 0.0005) rot=(4.0, 0.0, 350.0) scale=(0.0035, 0.0075, 0.0090)
+    Right: pos=(0.0040, 0.0208, 0.0005) rot=(4.0, 0.0, 10.0) scale=(0.0035, 0.0075, 0.0090)
+  [Thigh_Vastus_Medialis]
+    Left:  pos=(0.0035, 0.0198, 0.0015) rot=(4.0, 0.0, 6.0) scale=(0.0030, 0.0060, 0.0075)
+    Right: pos=(-0.0035, 0.0198, 0.0015) rot=(4.0, 0.0, 354.0) scale=(0.0030, 0.0060, 0.0075)
+  [Thigh_Hamstring_Shell]
+    Left:  pos=(0.0000, 0.0210, -0.0042) rot=(352.0, 0.0, 0.0) scale=(0.0085, 0.0070, 0.0040)
+    Right: pos=(0.0000, 0.0210, -0.0042) rot=(352.0, 0.0, 0.0) scale=(0.0085, 0.0070, 0.0040)
+  [Thigh_Hamstring_TieBar]
+    Left:  pos=(-0.0015, 0.0208, -0.0055) rot=(350.0, 0.0, 355.0) scale=(0.0015, 0.0055, 0.0015)
+    Right: pos=(0.0015, 0.0208, -0.0055) rot=(350.0, 0.0, 5.0) scale=(0.0015, 0.0055, 0.0015)
+  [Thigh_Hamstring_Conduit]
+    Left:  pos=(0.0015, 0.0208, -0.0055) rot=(350.0, 0.0, 5.0) scale=(0.0013, 0.0055, 0.0013)
+    Right: pos=(-0.0015, 0.0208, -0.0055) rot=(350.0, 0.0, 355.0) scale=(0.0013, 0.0055, 0.0013)
+  [Knee_Hinge_Block]
+    Left:  pos=(0.0000, 0.0168, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0085, 0.0042, 0.0075)
+    Right: pos=(0.0000, 0.0168, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0085, 0.0042, 0.0075)
+  [Knee_Pivot_Axle_Lateral]
+    Left:  pos=(-0.0045, 0.0168, 0.0000) rot=(0.0, 0.0, 90.0) scale=(0.0040, 0.0012, 0.0040)
+    Right: pos=(0.0045, 0.0168, 0.0000) rot=(0.0, 0.0, 270.0) scale=(0.0040, 0.0012, 0.0040)
+  [Knee_Pivot_Axle_Medial]
+    Left:  pos=(0.0045, 0.0168, 0.0000) rot=(0.0, 0.0, 90.0) scale=(0.0040, 0.0012, 0.0040)
+    Right: pos=(-0.0045, 0.0168, 0.0000) rot=(0.0, 0.0, 270.0) scale=(0.0040, 0.0012, 0.0040)
+  [Knee_Patella_Cop]
+    Left:  pos=(0.0000, 0.0172, 0.0045) rot=(15.0, 0.0, 0.0) scale=(0.0070, 0.0042, 0.0028)
+    Right: pos=(0.0000, 0.0172, 0.0045) rot=(15.0, 0.0, 0.0) scale=(0.0070, 0.0042, 0.0028)
+  [Knee_Patella_Diamond]
+    Left:  pos=(0.0000, 0.0173, 0.0058) rot=(15.0, 0.0, 45.0) scale=(0.0026, 0.0026, 0.0010)
+    Right: pos=(0.0000, 0.0173, 0.0058) rot=(15.0, 0.0, 315.0) scale=(0.0026, 0.0026, 0.0010)
+  [Knee_Patella_LipGuard]
+    Left:  pos=(0.0000, 0.0153, 0.0042) rot=(25.0, 0.0, 0.0) scale=(0.0062, 0.0018, 0.0020)
+    Right: pos=(0.0000, 0.0153, 0.0042) rot=(25.0, 0.0, 0.0) scale=(0.0062, 0.0018, 0.0020)
+  [Knee_Popliteal_Damper]
+    Left:  pos=(-0.0015, 0.0168, -0.0038) rot=(0.0, 0.0, 0.0) scale=(0.0018, 0.0035, 0.0018)
+    Right: pos=(0.0015, 0.0168, -0.0038) rot=(0.0, 0.0, 0.0) scale=(0.0018, 0.0035, 0.0018)
+  [Knee_Popliteal_Piston]
+    Left:  pos=(-0.0015, 0.0152, -0.0038) rot=(0.0, 0.0, 0.0) scale=(0.0011, 0.0025, 0.0011)
+    Right: pos=(0.0015, 0.0152, -0.0038) rot=(0.0, 0.0, 0.0) scale=(0.0011, 0.0025, 0.0011)
+  [Knee_Popliteal_Conduit]
+    Left:  pos=(0.0015, 0.0165, -0.0038) rot=(0.0, 0.0, 10.0) scale=(0.0015, 0.0040, 0.0015)
+    Right: pos=(-0.0015, 0.0165, -0.0038) rot=(0.0, 0.0, 350.0) scale=(0.0015, 0.0040, 0.0015)
+  [Shin_Tibial_Greave]
+    Left:  pos=(0.0000, 0.0112, 0.0030) rot=(6.0, 0.0, 0.0) scale=(0.0085, 0.0085, 0.0065)
+    Right: pos=(0.0000, 0.0112, 0.0030) rot=(6.0, 0.0, 0.0) scale=(0.0085, 0.0085, 0.0065)
+  [Shin_Ridge_Plate]
+    Left:  pos=(0.0000, 0.0114, 0.0062) rot=(6.0, 0.0, 0.0) scale=(0.0022, 0.0078, 0.0015)
+    Right: pos=(0.0000, 0.0114, 0.0062) rot=(6.0, 0.0, 0.0) scale=(0.0022, 0.0078, 0.0015)
+  [Shin_Peroneal_Flap]
+    Left:  pos=(-0.0042, 0.0110, 0.0005) rot=(0.0, 355.0, 352.0) scale=(0.0025, 0.0080, 0.0085)
+    Right: pos=(0.0042, 0.0110, 0.0005) rot=(0.0, 5.0, 8.0) scale=(0.0025, 0.0080, 0.0085)
+  [Shin_Medial_Splint]
+    Left:  pos=(0.0038, 0.0108, 0.0010) rot=(0.0, 5.0, 5.0) scale=(0.0022, 0.0075, 0.0075)
+    Right: pos=(-0.0038, 0.0108, 0.0010) rot=(0.0, 355.0, 355.0) scale=(0.0022, 0.0075, 0.0075)
+  [Calf_AirBrake_Cowl]
+    Left:  pos=(0.0000, 0.0118, -0.0048) rot=(348.0, 0.0, 0.0) scale=(0.0082, 0.0070, 0.0042)
+    Right: pos=(0.0000, 0.0118, -0.0048) rot=(348.0, 0.0, 0.0) scale=(0.0082, 0.0070, 0.0042)
+  [Calf_Radiator_Matrix]
+    Left:  pos=(0.0000, 0.0118, -0.0064) rot=(348.0, 0.0, 0.0) scale=(0.0068, 0.0055, 0.0012)
+    Right: pos=(0.0000, 0.0118, -0.0064) rot=(348.0, 0.0, 0.0) scale=(0.0068, 0.0055, 0.0012)
+  [Calf_Nozzle_Upper]
+    Left:  pos=(0.0000, 0.0132, -0.0072) rot=(285.0, 0.0, 0.0) scale=(0.0026, 0.0018, 0.0026)
+    Right: pos=(0.0000, 0.0132, -0.0072) rot=(285.0, 0.0, 0.0) scale=(0.0026, 0.0018, 0.0026)
+  [Calf_Copper_Ring_Upper]
+    Left:  pos=(0.0000, 0.0132, -0.0076) rot=(285.0, 0.0, 0.0) scale=(0.0029, 0.0006, 0.0029)
+    Right: pos=(0.0000, 0.0132, -0.0076) rot=(285.0, 0.0, 0.0) scale=(0.0029, 0.0006, 0.0029)
+  [Calf_Mach_Disk_Upper]
+    Left:  pos=(0.0000, 0.0132, -0.0080) rot=(285.0, 0.0, 0.0) scale=(0.0018, 0.0004, 0.0018)
+    Right: pos=(0.0000, 0.0132, -0.0080) rot=(285.0, 0.0, 0.0) scale=(0.0018, 0.0004, 0.0018)
+  [Calf_Nozzle_Lower]
+    Left:  pos=(0.0000, 0.0098, -0.0068) rot=(285.0, 0.0, 0.0) scale=(0.0024, 0.0018, 0.0024)
+    Right: pos=(0.0000, 0.0098, -0.0068) rot=(285.0, 0.0, 0.0) scale=(0.0024, 0.0018, 0.0024)
+  [Calf_Copper_Ring_Lower]
+    Left:  pos=(0.0000, 0.0098, -0.0072) rot=(285.0, 0.0, 0.0) scale=(0.0027, 0.0006, 0.0027)
+    Right: pos=(0.0000, 0.0098, -0.0072) rot=(285.0, 0.0, 0.0) scale=(0.0027, 0.0006, 0.0027)
+  [Calf_Mach_Disk_Lower]
+    Left:  pos=(0.0000, 0.0098, -0.0076) rot=(285.0, 0.0, 0.0) scale=(0.0016, 0.0004, 0.0016)
+    Right: pos=(0.0000, 0.0098, -0.0076) rot=(285.0, 0.0, 0.0) scale=(0.0016, 0.0004, 0.0016)
+  [Ankle_Gimbal_Ring]
+    Left:  pos=(0.0000, 0.0062, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0090, 0.0020, 0.0090)
+    Right: pos=(0.0000, 0.0062, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0090, 0.0020, 0.0090)
+  [Ankle_Malleolus_Lateral]
+    Left:  pos=(-0.0042, 0.0062, 0.0000) rot=(0.0, 0.0, 90.0) scale=(0.0032, 0.0010, 0.0032)
+    Right: pos=(0.0042, 0.0062, 0.0000) rot=(0.0, 0.0, 270.0) scale=(0.0032, 0.0010, 0.0032)
+  [Ankle_Malleolus_Medial]
+    Left:  pos=(0.0042, 0.0062, 0.0000) rot=(0.0, 0.0, 90.0) scale=(0.0032, 0.0010, 0.0032)
+    Right: pos=(-0.0042, 0.0062, 0.0000) rot=(0.0, 0.0, 270.0) scale=(0.0032, 0.0010, 0.0032)
+  [Ankle_Achilles_Cylinder]
+    Left:  pos=(0.0000, 0.0068, -0.0042) rot=(345.0, 0.0, 0.0) scale=(0.0018, 0.0032, 0.0018)
+    Right: pos=(0.0000, 0.0068, -0.0042) rot=(345.0, 0.0, 0.0) scale=(0.0018, 0.0032, 0.0018)
+  [Ankle_Achilles_Rod]
+    Left:  pos=(0.0000, 0.0046, -0.0048) rot=(345.0, 0.0, 0.0) scale=(0.0011, 0.0028, 0.0011)
+    Right: pos=(0.0000, 0.0046, -0.0048) rot=(345.0, 0.0, 0.0) scale=(0.0011, 0.0028, 0.0011)
+  [Ankle_Flexion_Gasket]
+    Left:  pos=(0.0000, 0.0050, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0080, 0.0018, 0.0080)
+    Right: pos=(0.0000, 0.0050, 0.0000) rot=(0.0, 0.0, 0.0) scale=(0.0080, 0.0018, 0.0080)
+  [Boot_Chassis_Red]
+    Left:  pos=(0.0000, 0.0028, 0.0015) rot=(0.0, 0.0, 0.0) scale=(0.0098, 0.0036, 0.0135)
+    Right: pos=(0.0000, 0.0028, 0.0015) rot=(0.0, 0.0, 0.0) scale=(0.0098, 0.0036, 0.0135)
+  [Boot_Toe_Cap_Gold]
+    Left:  pos=(0.0000, 0.0024, 0.0085) rot=(350.0, 0.0, 0.0) scale=(0.0092, 0.0026, 0.0045)
+    Right: pos=(0.0000, 0.0024, 0.0085) rot=(350.0, 0.0, 0.0) scale=(0.0092, 0.0026, 0.0045)
+  [Boot_Flex_Seam]
+    Left:  pos=(0.0000, 0.0036, 0.0062) rot=(0.0, 0.0, 0.0) scale=(0.0094, 0.0008, 0.0008)
+    Right: pos=(0.0000, 0.0036, 0.0062) rot=(0.0, 0.0, 0.0) scale=(0.0094, 0.0008, 0.0008)
+  [Boot_Heel_Spur]
+    Left:  pos=(0.0000, 0.0026, -0.0065) rot=(18.0, 0.0, 0.0) scale=(0.0085, 0.0030, 0.0032)
+    Right: pos=(0.0000, 0.0026, -0.0065) rot=(18.0, 0.0, 0.0) scale=(0.0085, 0.0030, 0.0032)
+  [Boot_Tactical_Sole]
+    Left:  pos=(0.0000, 0.0005, 0.0015) rot=(0.0, 0.0, 0.0) scale=(0.0105, 0.0010, 0.0165)
+    Right: pos=(0.0000, 0.0005, 0.0015) rot=(0.0, 0.0, 0.0) scale=(0.0105, 0.0010, 0.0165)
+  [Boot_Repulsor_Reflector]
+    Left:  pos=(0.0000, 0.0005, 0.0030) rot=(0.0, 180.0, 180.0) scale=(0.0055, 0.0003, 0.0055)
+    Right: pos=(0.0000, 0.0005, 0.0030) rot=(0.0, 180.0, 180.0) scale=(0.0055, 0.0003, 0.0055)
+  [Boot_Repulsor_Coil]
+    Left:  pos=(0.0000, 0.0005, 0.0030) rot=(0.0, 180.0, 180.0) scale=(0.0046, 0.0003, 0.0046)
+    Right: pos=(0.0000, 0.0005, 0.0030) rot=(0.0, 180.0, 180.0) scale=(0.0046, 0.0003, 0.0046)
+  [Boot_Repulsor_Lens]
+    Left:  pos=(0.0000, 0.0004, 0.0030) rot=(0.0, 180.0, 180.0) scale=(0.0034, 0.0002, 0.0034)
+    Right: pos=(0.0000, 0.0004, 0.0030) rot=(0.0, 180.0, 180.0) scale=(0.0034, 0.0002, 0.0034)
+  [Boot_Heel_MicroThruster]
+    Left:  pos=(0.0000, 0.0005, -0.0045) rot=(0.0, 180.0, 180.0) scale=(0.0026, 0.0003, 0.0026)
+    Right: pos=(0.0000, 0.0005, -0.0045) rot=(0.0, 180.0, 180.0) scale=(0.0026, 0.0003, 0.0026)
+  [Boot_Heel_Thruster_Core]
+    Left:  pos=(0.0000, 0.0004, -0.0045) rot=(0.0, 180.0, 180.0) scale=(0.0015, 0.0002, 0.0015)
+    Right: pos=(0.0000, 0.0004, -0.0045) rot=(0.0, 180.0, 180.0) scale=(0.0015, 0.0002, 0.0015)
+
+Collider Audit across Mini Iron Man (Pelvis, LeftLeg, RightLeg):
+  Pelvis: Found 0 colliders.
+  LeftLeg: Found 0 colliders.
+  RightLeg: Found 0 colliders.

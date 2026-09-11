@@ -1,0 +1,22 @@
+# Auto-detect text files and perform LF normalization
+* text=auto
+
+# Unity YAML files
+*.mat text merge=unityyamlmerge
+*.anim text merge=unityyamlmerge
+*.unity text merge=unityyamlmerge
+*.prefab text merge=unityyamlmerge
+*.physicsMaterial2D text merge=unityyamlmerge
+*.physicMaterial text merge=unityyamlmerge
+*.asset text merge=unityyamlmerge
+*.meta text merge=unityyamlmerge
+*.controller text merge=unityyamlmerge
+
+# Git LFS tracking for large binary packages and assets
+*.tgz filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,37 @@
+================================================================================
+=== BOXBOT WHOLE-BODY KINEMATICS & COLLISION-FREE TRAJECTORY AUDIT ===
+================================================================================
+
+--- 1. REPULSOR BLAST TRAJECTORY (Left Arm) ---
+Repulsor Blast Shoulder Start Rot: (0.00, 0.00, 0.00) (Quat: (0.0000, 0.0000, 0.0000, 1.0000))
+Repulsor Blast Shoulder End Rot:   (272.00, 2.00, 4.00) (Quat: (-0.6937, 0.0368, 0.0372, 0.7184))
+
+Slerp Path (t = 0.0 to 1.0):
+  t=0.0 | Euler=       (0.0, 0.0, 0.0) | Min Dist= 0.396 mm | Closest: 'Pauldron_RCS_ExhaustLip' vs 'Conduit_L_Primary'
+  t=0.1 | Euler=     (351.2, 0.4, 0.4) | Min Dist= 0.467 mm | Closest: 'Pauldron_RCS_CopperRing' vs 'Conduit_L_Primary'
+  t=0.2 | Euler=     (342.4, 0.8, 0.8) | Min Dist= 0.387 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Primary'
+  t=0.3 | Euler=     (333.6, 1.1, 1.2) | Min Dist= 0.160 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+  t=0.4 | Euler=     (324.8, 1.5, 1.5) | Min Dist= 0.262 mm | Closest: 'Pauldron_Thruster_Throat' vs 'Cowl_L_Trapezius'
+  t=0.5 | Euler=     (316.0, 1.7, 1.8) | Min Dist= 0.118 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+  t=0.6 | Euler=     (307.2, 2.0, 2.1) | Min Dist= 0.558 mm | Closest: 'Pauldron_Outer_Shell' vs 'Conduit_L_Primary'
+  t=0.7 | Euler=     (298.4, 2.2, 2.3) | Min Dist= 0.453 mm | Closest: 'Pauldron_Outer_Shell' vs 'Conduit_L_Primary'
+  t=0.8 | Euler=     (289.6, 2.4, 2.6) | Min Dist= 0.677 mm | Closest: 'Elbow_Axle_Superior' vs 'Serratus_L_Rib1_Red'
+  t=0.9 | Euler=     (280.8, 2.6, 2.9) | Min Dist= 0.519 mm | Closest: 'Pauldron_Outer_Shell' vs 'Cowl_L_Trapezius'
+  t=1.0 | Euler=     (272.0, 2.0, 4.0) | Min Dist= 0.517 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+
+--- 2. CHEST ARC REACTOR UNIBEAM LASER (Left Arm) ---
+Unibeam Shoulder Start Rot: (0.00, 0.00, 0.00) (Quat: (0.0000, 0.0000, 0.0000, 1.0000))
+Unibeam Shoulder End Rot:   (24.00, 356.00, 8.00) (Quat: (0.2049, -0.0485, 0.0754, 0.9747))
+
+Slerp Path (t = 0.0 to 1.0):
+  t=0.0 | Euler=       (0.0, 0.0, 0.0) | Min Dist= 0.396 mm | Closest: 'Pauldron_RCS_ExhaustLip' vs 'Conduit_L_Primary'
+  t=0.1 | Euler=     (2.4, 359.5, 0.9) | Min Dist= 0.324 mm | Closest: 'Pauldron_Outer_Shell' vs 'Conduit_L_Braided'
+  t=0.2 | Euler=     (4.7, 359.0, 1.7) | Min Dist= 0.322 mm | Closest: 'Pauldron_Outer_Shell' vs 'Conduit_L_Braided'
+  t=0.3 | Euler=     (7.1, 358.5, 2.5) | Min Dist= 0.513 mm | Closest: 'Pauldron_Outer_Shell' vs 'Conduit_L_Braided'
+  t=0.4 | Euler=     (9.5, 358.0, 3.3) | Min Dist= 0.564 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Cowl_L_Trapezius'
+  t=0.5 | Euler=    (11.9, 357.6, 4.1) | Min Dist= 0.680 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+  t=0.6 | Euler=    (14.3, 357.2, 4.9) | Min Dist= 0.705 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Cowl_L_Trapezius'
+  t=0.7 | Euler=    (16.8, 356.9, 5.7) | Min Dist= 0.501 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Primary'
+  t=0.8 | Euler=    (19.2, 356.6, 6.5) | Min Dist= 0.401 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Primary'
+  t=0.9 | Euler=    (21.6, 356.3, 7.2) | Min Dist= 0.333 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Primary'
+  t=1.0 | Euler=    (24.0, 356.0, 8.0) | Min Dist= 0.481 mm | Closest: 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Primary'

@@ -1,0 +1,17 @@
+=== KINEMATIC SIMULATION & CLEARANCE VERIFICATION ===
+Identified 96 critical lateral/anterior/posterior Torso obstacle meshes.
+
+--- Neutral Clearances (Left Arm to Torso) ---
+Total Torso obstacle vertices: 6593
+
+--- Kinematic Pitch Sweep around LeftArmPivot X-axis (-90° forward to +45° backward) ---
+Pitch  -90°: Min Dist =  0.482 mm | 'Pauldron_Outer_Shell' vs 'Conduit_L_Braided'
+Pitch  -75°: Min Dist =  0.789 mm | 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+Pitch  -60°: Min Dist =  0.442 mm | 'Elbow_Pivot_Cap_Silver' vs 'Serratus_L_Rib1_Red'
+Pitch  -45°: Min Dist =  0.155 mm | 'Elbow_Pivot_Hub_DarkMetal' vs 'Serratus_L_Rib2_Gold'
+Pitch  -30°: Min Dist =  0.493 mm | 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+Pitch  -15°: Min Dist =  0.463 mm | 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Braided'
+Pitch    0°: Min Dist =  0.505 mm | 'Pauldron_Gold_UnderFlange' vs 'Conduit_Intercostal_Braid_L'
+Pitch   15°: Min Dist =  0.330 mm | 'Pauldron_RCS_ExhaustLip' vs 'Conduit_L_Primary'
+Pitch   30°: Min Dist =  0.606 mm | 'Pauldron_Gold_UnderFlange' vs 'Conduit_L_Primary'
+Pitch   45°: Min Dist =  0.344 mm | 'Pauldron_Gold_UnderFlange' vs 'Conduit_Intercostal_Braid_L'

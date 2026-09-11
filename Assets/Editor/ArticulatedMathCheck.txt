@@ -1,0 +1,6 @@
+=== DETAILED ARTICULATED KINEMATICS VERIFICATION ===
+Forearm axis with Shoulder pitch -75°: (0.0000, -0.2588, 0.9659)
+Forearm axis with Shoulder pitch -90°: (0.0000, 0.0000, 1.0000)
+Palm normal with Shoulder -90° and Wrist -90°: (0.0000, 0.0000, 1.0000)
+Palm normal with Shoulder -90° and Wrist +90°: (0.0000, 0.0000, -1.0000)
+Neutral Palm cylinder.up in Root: (0.0000, 0.0000, -1.0000)

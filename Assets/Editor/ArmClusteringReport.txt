@@ -1,0 +1,33 @@
+=== BOXBOT ARM ANATOMICAL CLUSTERING & GEOMETRIC ANALYSIS ===
+Group 'Shoulder_Pauldron' (16 parts):
+   Arm Local Bounds Center: (0.002200, 0.006348, 0.000000), Size: (0.021364, 0.020074, 0.018500)
+   Y Range: [-0.003689, 0.016385] m (Span: 20.074 mm)
+   X Range: [-0.008482, 0.012882] m, Z Range: [-0.009250, 0.009250] m
+Group 'Shoulder_Glenohumeral_Joint' (5 parts):
+   Arm Local Bounds Center: (0.000000, 0.000186, 0.000186), Size: (0.009300, 0.009773, 0.009773)
+   Y Range: [-0.004700, 0.005073] m (Span: 9.773 mm)
+   X Range: [-0.004650, 0.004650] m, Z Range: [-0.004700, 0.005073] m
+Group 'Upper_Arm_Humerus_Bicep_Tricep' (18 parts):
+   Arm Local Bounds Center: (0.000553, -0.008500, -0.000346), Size: (0.010483, 0.018000, 0.013009)
+   Y Range: [-0.017500, 0.000500] m (Span: 18.000 mm)
+   X Range: [-0.004688, 0.005795] m, Z Range: [-0.006851, 0.006158] m
+Group 'Elbow_Joint_Complex' (15 parts):
+   Arm Local Bounds Center: (0.000200, -0.017724, -0.001726), Size: (0.011600, 0.007847, 0.014457)
+   Y Range: [-0.021647, -0.013800] m (Span: 7.847 mm)
+   X Range: [-0.005600, 0.006000] m, Z Range: [-0.008955, 0.005502] m
+Group 'Forearm_Gauntlet' (22 parts):
+   Arm Local Bounds Center: (0.000727, -0.026628, 0.000753), Size: (0.016035, 0.016544, 0.015593)
+   Y Range: [-0.034900, -0.018356] m (Span: 16.544 mm)
+   X Range: [-0.007290, 0.008745] m, Z Range: [-0.007043, 0.008550] m
+Group 'Wrist_Joint_Complex' (8 parts):
+   Arm Local Bounds Center: (0.000675, -0.035300, 0.000000), Size: (0.011850, 0.004600, 0.010500)
+   Y Range: [-0.037600, -0.033000] m (Span: 4.600 mm)
+   X Range: [-0.005250, 0.006600] m, Z Range: [-0.005250, 0.005250] m
+Group 'Hand_Dorsal_And_Digits' (18 parts):
+   Arm Local Bounds Center: (-0.000720, -0.043923, 0.002475), Size: (0.011240, 0.014746, 0.008050)
+   Y Range: [-0.051296, -0.036550] m (Span: 14.746 mm)
+   X Range: [-0.006340, 0.004900] m, Z Range: [-0.001550, 0.006500] m
+Group 'Repulsor_Palm_Emitter' (11 parts):
+   Arm Local Bounds Center: (0.000000, -0.041000, -0.003600), Size: (0.007400, 0.007400, 0.004800)
+   Y Range: [-0.044700, -0.037300] m (Span: 7.400 mm)
+   X Range: [-0.003700, 0.003700] m, Z Range: [-0.006000, -0.001200] m

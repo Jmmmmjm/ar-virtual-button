@@ -1,0 +1,326 @@
+================================================================================
+=== BOXBOT / MINI IRON MAN WHOLE-BODY ARM & JOINT ANATOMY AUDIT ===
+================================================================================
+
+--- 1. PIVOTS & TOP-LEVEL TRANSFORMS ---
+BoxBot_Root: Pos=(0.000000, 0.000000, 0.000000), Rot=(0.000, 180.000, 0.000), Scale=(1.000000, 1.000000, 1.000000)
+LeftArmPivot:  Pos=(-0.029000, 0.056000, 0.000000), Rot=(0.000, 0.000, 0.000), Scale=(1.000000, 1.000000, 1.000000)
+RightArmPivot: Pos=(0.029000, 0.056000, 0.000000), Rot=(0.000, 0.000, 0.000), Scale=(1.000000, 1.000000, 1.000000)
+Torso:         Pos=(0.000000, 0.048000, 0.000000), Rot=(0.000, 0.000, 0.000), Scale=(1.000000, 1.000000, 1.000000)
+
+--- 2. ALL CHILDREN OF LeftArmPivot (113 children) ---
+  0: Deltoid_Ball_Core                      | pos:   (0.000000, 0.000000, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009000, 0.009000, 0.009000) | mat: Mat_IronMan_DarkMetal  | mesh: Sphere | children: 0
+  1: Pauldron_Outer_Shell                   | pos:   (0.002200, 0.006200, 0.000000) | rot:    (0.000, 0.000, 345.000) | scale:   (0.018500, 0.013500, 0.018500) | mat: Mat_IronMan_Red        | mesh: Sphere | children: 0
+  2: Pauldron_Gold_UnderFlange              | pos:   (0.002000, 0.004000, 0.000000) | rot:    (0.000, 0.000, 345.000) | scale:   (0.016500, 0.011500, 0.016500) | mat: Mat_IronMan_Gold       | mesh: Sphere | children: 0
+  3: Pauldron_Thruster_Bezel                | pos:   (0.009200, 0.007800, 0.000000) | rot:    (0.000, 0.000, 285.000) | scale:   (0.002800, 0.001200, 0.002800) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+  4: Pauldron_Thruster_Throat               | pos:   (0.009400, 0.007800, 0.000000) | rot:    (0.000, 0.000, 285.000) | scale:   (0.001600, 0.001400, 0.001600) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+  5: Pauldron_Actuator_Cylinder             | pos: (-0.002000, 0.004500, -0.001500) | rot:     (8.000, 0.000, 22.000) | scale:   (0.001800, 0.004000, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+  6: Pauldron_Actuator_Piston               | pos:  (0.000500, 0.006800, -0.001800) | rot:     (8.000, 0.000, 22.000) | scale:   (0.001000, 0.003500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+  7: Deltoid_Collar_Seal                    | pos:  (0.000000, -0.003200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.008400, 0.001200, 0.008400) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+  8: Humeral_Core_Strut                     | pos:  (0.000000, -0.008500, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.007500, 0.009000, 0.007500) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+  9: Bicep_Lateral_Head                     | pos:  (0.002200, -0.008200, 0.003500) | rot:  (5.000, 350.000, 358.000) | scale:   (0.004200, 0.009500, 0.003800) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 10: Bicep_Medial_Head                      | pos: (-0.002200, -0.008200, 0.003500) | rot:     (5.000, 10.000, 2.000) | scale:   (0.004200, 0.009500, 0.003800) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 11: Bicep_Median_Seam                      | pos:  (0.000000, -0.008200, 0.004200) | rot:      (5.000, 0.000, 0.000) | scale:   (0.001000, 0.009800, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 12: Tricep_Shell_Crimson                   | pos: (0.000000, -0.008200, -0.003800) | rot:    (355.000, 0.000, 0.000) | scale:   (0.008600, 0.010500, 0.004500) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 13: Tricep_Tendon_Rail                     | pos: (0.000000, -0.008200, -0.005500) | rot:    (355.000, 0.000, 0.000) | scale:   (0.002600, 0.011000, 0.001600) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+ 14: Tricep_Carbon_Tendon                   | pos: (0.000000, -0.008200, -0.005800) | rot:    (355.000, 0.000, 0.000) | scale:   (0.001200, 0.005200, 0.001200) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 15: Bicep_Distal_Cuff                      | pos:  (0.000000, -0.014200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009200, 0.001500, 0.009200) | mat: Mat_IronMan_Gold       | mesh: Cylinder | children: 0
+ 16: Elbow_Chassis_Block                    | pos:  (0.000000, -0.017200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.007200, 0.005500, 0.006800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 17: Elbow_Axle_Superior                    | pos:  (0.000000, -0.015800, 0.000800) | rot:    (0.000, 0.000, 270.000) | scale:   (0.004000, 0.004800, 0.004000) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 18: Elbow_Axle_Inferior                    | pos: (0.000000, -0.018600, -0.000800) | rot:    (0.000, 0.000, 270.000) | scale:   (0.004000, 0.004800, 0.004000) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 19: Elbow_Pivot_Cap_Silver                 | pos:  (0.004500, -0.017200, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.006200, 0.001000, 0.006200) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 20: Elbow_Pivot_Hub_DarkMetal              | pos:  (0.004900, -0.017200, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.003500, 0.001100, 0.003500) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 21: Elbow_Pivot_Cap_Medial                 | pos: (-0.004200, -0.017200, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.005500, 0.000800, 0.005500) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 22: Elbow_Cop_Base_Red                     | pos: (0.000000, -0.018200, -0.005000) | rot:   (15.000, 315.000, 0.000) | scale:   (0.006200, 0.006200, 0.003500) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 23: Elbow_Cop_Rim_Gold                     | pos: (0.000000, -0.018200, -0.005800) | rot:   (15.000, 315.000, 0.000) | scale:   (0.004200, 0.004200, 0.002800) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 24: Elbow_Conduit_Lateral                  | pos:  (0.002200, -0.017200, 0.003600) | rot:     (25.000, 0.000, 0.000) | scale:   (0.001400, 0.003000, 0.001400) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 25: Elbow_Conduit_Medial                   | pos: (-0.002200, -0.017200, 0.003600) | rot:     (25.000, 0.000, 0.000) | scale:   (0.001400, 0.003000, 0.001400) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 26: Elbow_Copper_Bus                       | pos:  (0.000000, -0.017200, 0.003800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001800, 0.001400, 0.001400) | mat: Mat_CopperCoil         | mesh: Cube | children: 0
+ 27: Gauntlet_Main_Chassis                  | pos:  (0.000000, -0.027500, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.012500, 0.014500, 0.012500) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 28: Gauntlet_Anterior_Plate                | pos:  (0.000000, -0.027000, 0.004800) | rot:    (357.000, 0.000, 0.000) | scale:   (0.010500, 0.013500, 0.004000) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 29: Gauntlet_Ulna_Ridge                    | pos: (0.000000, -0.027500, -0.005200) | rot:      (2.000, 0.000, 0.000) | scale:   (0.007500, 0.014000, 0.003200) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 30: Gauntlet_Panel_Channel_Lat             | pos:  (0.005800, -0.027500, 0.001000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.014800, 0.002200) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 31: Missile_Pod_Base_Gold                  | pos:  (0.000000, -0.027000, 0.006500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.008200, 0.010500, 0.003500) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 32: Missile_Pod_Hatch_Red                  | pos:  (0.000000, -0.026500, 0.007800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.006800, 0.008000, 0.001500) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 33: Missile_Launch_Bay_Trench              | pos:  (0.000000, -0.023200, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.006000, 0.002200, 0.002500) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 34: Missile_Warhead_L                      | pos:  (0.001800, -0.023000, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 35: Missile_Warhead_R                      | pos: (-0.001800, -0.023000, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 36: Aero_Flight_Flap_Fin                   | pos: (0.006800, -0.026500, -0.001500) | rot:     (0.000, 12.000, 8.000) | scale:   (0.001500, 0.009500, 0.005500) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 37: Aero_Flight_Flap_Hinge                 | pos: (0.006200, -0.022500, -0.001500) | rot:     (90.000, 0.000, 0.000) | scale:   (0.001400, 0.002200, 0.001400) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 38: Wrist_Retention_Ring_Gold              | pos:  (0.000000, -0.034800, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.010500, 0.001800, 0.010500) | mat: Mat_IronMan_Gold       | mesh: Cylinder | children: 0
+ 39: Wrist_Pressure_Gasket_Dark             | pos:  (0.000000, -0.036200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009400, 0.001400, 0.009400) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 40: Hand_Dorsal_Plate_Red                  | pos:  (0.000000, -0.039800, 0.002200) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009200, 0.006500, 0.007500) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 41: Hand_Chevron_Gold                      | pos:  (0.000000, -0.039200, 0.005500) | rot:    (0.000, 0.000, 315.000) | scale:   (0.003500, 0.003500, 0.001500) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 42: Knuckle_Bridge_Gold                    | pos:  (0.000000, -0.043000, 0.003200) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009800, 0.002200, 0.003200) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 43: Knuckle_Stud_Index                     | pos: (-0.003300, -0.043000, 0.004600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | mesh: Sphere | children: 0
+ 44: Knuckle_Stud_Middle                    | pos: (-0.001100, -0.043000, 0.004800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | mesh: Sphere | children: 0
+ 45: Knuckle_Stud_Ring                      | pos:  (0.001100, -0.043000, 0.004800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | mesh: Sphere | children: 0
+ 46: Knuckle_Stud_Pinky                     | pos:  (0.003300, -0.043000, 0.004600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | mesh: Sphere | children: 0
+ 47: Finger_Bank_Proximal                   | pos:  (0.000000, -0.045600, 0.002800) | rot:      (8.000, 0.000, 0.000) | scale:   (0.008800, 0.003200, 0.002800) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 48: Finger_Joint_Bar_Gold                  | pos:  (0.000000, -0.047400, 0.002600) | rot:     (16.000, 0.000, 0.000) | scale:   (0.008600, 0.001200, 0.002400) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 49: Finger_Bank_Distal                     | pos:  (0.000000, -0.049400, 0.001800) | rot:     (26.000, 0.000, 0.000) | scale:   (0.008400, 0.003000, 0.002500) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 50: Thumb_Basal_Joint_Gold                 | pos: (-0.004200, -0.040500, 0.001800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002200, 0.002200) | mat: Mat_IronMan_Gold       | mesh: Sphere | children: 0
+ 51: Thumb_Distal_Red                       | pos: (-0.004600, -0.042800, 0.001500) | rot:  (12.000, 345.000, 18.000) | scale:   (0.002000, 0.003200, 0.002200) | mat: Mat_IronMan_Red        | mesh: Cube | children: 0
+ 52: Repulsor_Bezel                         | pos: (0.000000, -0.041000, -0.002800) | rot:     (90.000, 0.000, 0.000) | scale:   (0.006600, 0.001600, 0.006600) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 53: Repulsor_Iris_Throat                   | pos: (0.000000, -0.041000, -0.003200) | rot:     (90.000, 0.000, 0.000) | scale:   (0.005200, 0.001800, 0.005200) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 54: Repulsor_Coil_Accent                   | pos: (0.000000, -0.041000, -0.003400) | rot:     (90.000, 0.000, 0.000) | scale:   (0.004200, 0.001900, 0.004200) | mat: Mat_CopperCoil         | mesh: Cylinder | children: 0
+ 55: RepulsorPalm                           | pos: (0.000000, -0.041000, -0.003800) | rot:     (90.000, 0.000, 0.000) | scale:   (0.003400, 0.002200, 0.003400) | mat: Mat_EmissiveBlue       | mesh: Cylinder | children: 0
+ 56: Pauldron_Scissor_UpperBracket          | pos:  (-0.004500, 0.008500, 0.000000) | rot:     (0.000, 0.000, 15.000) | scale:   (0.001600, 0.004200, 0.002800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 57: Pauldron_Scissor_LowerBracket          | pos:  (-0.006500, 0.005500, 0.000000) | rot:    (0.000, 0.000, 340.000) | scale:   (0.001400, 0.004800, 0.002400) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+ 58: Pauldron_Scissor_PivotPin              | pos:  (-0.005500, 0.007000, 0.000000) | rot:     (90.000, 0.000, 0.000) | scale:   (0.001200, 0.003200, 0.001200) | mat: Mat_IronMan_Gold       | mesh: Cylinder | children: 0
+ 59: Pauldron_Slide_Rail_Anterior           | pos:  (-0.001000, 0.008200, 0.003500) | rot:   (15.000, 0.000, 345.000) | scale:   (0.001000, 0.008500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 60: Pauldron_Slide_Rail_Posterior          | pos: (-0.001000, 0.008200, -0.003500) | rot:  (345.000, 0.000, 345.000) | scale:   (0.001000, 0.008500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 61: Pauldron_Slide_Shoe_Anterior           | pos:  (-0.001000, 0.008200, 0.003500) | rot:   (15.000, 0.000, 345.000) | scale:   (0.001800, 0.002600, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 62: Pauldron_Slide_Shoe_Posterior          | pos: (-0.001000, 0.008200, -0.003500) | rot:  (345.000, 0.000, 345.000) | scale:   (0.001800, 0.002600, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 63: Pauldron_RCS_ExhaustLip                | pos:   (0.010200, 0.007800, 0.000000) | rot:    (0.000, 0.000, 285.000) | scale:   (0.003300, 0.000600, 0.003300) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 64: Pauldron_RCS_CopperRing                | pos:   (0.009800, 0.007800, 0.000000) | rot:    (0.000, 0.000, 285.000) | scale:   (0.003000, 0.000500, 0.003000) | mat: Mat_CopperCoil         | mesh: Cylinder | children: 0
+ 65: Pauldron_RCS_PlasmaCore                | pos:   (0.009500, 0.007800, 0.000000) | rot:    (0.000, 0.000, 285.000) | scale:   (0.001400, 0.000400, 0.001400) | mat: Mat_EmissiveBlue       | mesh: Cylinder | children: 0
+ 66: Deltoid_Sensor_Ring_Equator            | pos:   (0.000000, 0.000000, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.009400, 0.001200, 0.009400) | mat: Mat_CopperCoil         | mesh: Cylinder | children: 0
+ 67: Deltoid_Sensor_Ring_Meridian           | pos:   (0.000000, 0.000000, 0.000000) | rot:     (90.000, 0.000, 0.000) | scale:   (0.009300, 0.001000, 0.009300) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 68: Deltoid_Sensor_PickupHead              | pos:   (0.000000, 0.003800, 0.003800) | rot:     (45.000, 0.000, 0.000) | scale:   (0.002200, 0.001800, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 69: Humeral_Telemetry_Housing              | pos:  (0.004200, -0.008000, 0.000000) | rot:     (0.000, 0.000, 10.000) | scale:   (0.001600, 0.004500, 0.003800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 70: Humeral_Telemetry_Socket               | pos:  (0.004800, -0.008000, 0.000000) | rot:     (0.000, 0.000, 10.000) | scale:   (0.000800, 0.003200, 0.002600) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 71: Humeral_Telemetry_CoverFlap            | pos:  (0.005100, -0.006000, 0.000000) | rot:     (0.000, 0.000, 25.000) | scale:   (0.000600, 0.002000, 0.003000) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+ 72: Humeral_Telemetry_DataNode             | pos:  (0.004900, -0.009200, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.000800, 0.000500, 0.000800) | mat: Mat_EmissiveBlue       | mesh: Cylinder | children: 0
+ 73: Bicep_Junction_Box_Lat                 | pos:  (0.003200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002800, 0.002200) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 74: Bicep_Junction_Box_Med                 | pos: (-0.003200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002800, 0.002200) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 75: Bicep_Diag_Plate_Lat                   | pos:  (0.004200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.000500, 0.002200, 0.001600) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 76: Bicep_Diag_Plate_Med                   | pos: (-0.004200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.000500, 0.002200, 0.001600) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+ 77: Bicep_Conduit_Ferrule_Lat              | pos:  (0.002800, -0.015000, 0.003200) | rot:     (15.000, 0.000, 0.000) | scale:   (0.001500, 0.001200, 0.001500) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 78: Bicep_Conduit_Ferrule_Med              | pos: (-0.002800, -0.015000, 0.003200) | rot:     (15.000, 0.000, 0.000) | scale:   (0.001500, 0.001200, 0.001500) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 79: Elbow_Circlip_Ring_Lat                 | pos:  (0.005000, -0.017200, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.005400, 0.000300, 0.005400) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 80: Elbow_Circlip_Ring_Med                 | pos: (-0.004600, -0.017200, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.005000, 0.000300, 0.005000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 81: Elbow_Lube_Port_Lat                    | pos:  (0.005200, -0.015200, 0.001200) | rot:     (0.000, 0.000, 90.000) | scale:   (0.001000, 0.000800, 0.001000) | mat: Mat_IronMan_Gold       | mesh: Cylinder | children: 0
+ 82: Elbow_Lube_Port_Med                    | pos: (-0.004800, -0.015200, 0.001200) | rot:     (0.000, 0.000, 90.000) | scale:   (0.001000, 0.000800, 0.001000) | mat: Mat_IronMan_Gold       | mesh: Cylinder | children: 0
+ 83: Missile_Latch_Clip_Ant                 | pos:  (0.000000, -0.021800, 0.007500) | rot:     (15.000, 0.000, 0.000) | scale:   (0.004500, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+ 84: Missile_Latch_Clip_Post                | pos:  (0.000000, -0.030800, 0.007200) | rot:    (345.000, 0.000, 0.000) | scale:   (0.004500, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+ 85: Missile_Latch_Solenoid                 | pos:  (0.000000, -0.021000, 0.006200) | rot:     (90.000, 0.000, 0.000) | scale:   (0.001400, 0.001800, 0.001400) | mat: Mat_IronMan_Gold       | mesh: Cylinder | children: 0
+ 86: Targeting_Optic_Housing                | pos:  (0.000000, -0.020200, 0.005500) | rot:     (20.000, 0.000, 0.000) | scale:   (0.004200, 0.002200, 0.002600) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 87: Targeting_Optic_Prism                  | pos:  (0.000000, -0.019800, 0.006400) | rot:     (70.000, 0.000, 0.000) | scale:   (0.002200, 0.001200, 0.002200) | mat: Mat_EmissiveBlue       | mesh: Cylinder | children: 0
+ 88: Gauntlet_Standoff_Lat_Upper            | pos:  (0.006000, -0.023500, 0.002000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.002200, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 89: Gauntlet_Standoff_Lat_Lower            | pos:  (0.006000, -0.031500, 0.002000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.002200, 0.001800) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 90: Gauntlet_HeatVent_Louver_Lat           | pos: (0.006400, -0.027500, -0.003000) | rot:     (0.000, 15.000, 0.000) | scale:   (0.001200, 0.008500, 0.002400) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 91: Gauntlet_HeatVent_Louver_Med           | pos: (-0.006400, -0.027500, -0.003000) | rot:    (0.000, 345.000, 0.000) | scale:   (0.001200, 0.008500, 0.002400) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+ 92: Gauntlet_HeatVent_Core_Lat             | pos: (0.006000, -0.027500, -0.003000) | rot:     (0.000, 15.000, 0.000) | scale:   (0.000600, 0.007500, 0.001800) | mat: Mat_CopperCoil         | mesh: Cube | children: 0
+ 93: Gauntlet_HeatVent_Core_Med             | pos: (-0.006000, -0.027500, -0.003000) | rot:    (0.000, 345.000, 0.000) | scale:   (0.000600, 0.007500, 0.001800) | mat: Mat_CopperCoil         | mesh: Cube | children: 0
+ 94: Wrist_Pressure_Valve_Fitting           | pos:  (0.005000, -0.035500, 0.001500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002000, 0.002200) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+ 95: Wrist_Pressure_Relief_Nozzle           | pos:  (0.005800, -0.035500, 0.001500) | rot:     (0.000, 0.000, 90.000) | scale:   (0.001000, 0.000800, 0.001000) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+ 96: Wrist_Screw_Ant_Lat                    | pos:  (0.003600, -0.034800, 0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 97: Wrist_Screw_Ant_Med                    | pos: (-0.003600, -0.034800, 0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 98: Wrist_Screw_Post_Lat                   | pos: (0.003600, -0.034800, -0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+ 99: Wrist_Screw_Post_Med                   | pos: (-0.003600, -0.034800, -0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+100: Hand_Rivet_Prox_Lat                    | pos:  (0.002800, -0.038000, 0.005600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.001200) | mat: Mat_IronMan_Silver     | mesh: Sphere | children: 0
+101: Hand_Rivet_Prox_Med                    | pos: (-0.002800, -0.038000, 0.005600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.001200) | mat: Mat_IronMan_Silver     | mesh: Sphere | children: 0
+102: Hand_Rivet_Dist_Center                 | pos:  (0.000000, -0.041000, 0.005800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001400, 0.001400) | mat: Mat_IronMan_Gold       | mesh: Sphere | children: 0
+103: Thumb_Gimbal_Yoke                      | pos: (-0.003600, -0.039200, 0.001800) | rot:    (0.000, 0.000, 335.000) | scale:   (0.001800, 0.002800, 0.002400) | mat: Mat_IronMan_DarkMetal  | mesh: Cube | children: 0
+104: Thumb_Gimbal_HingePin                  | pos: (-0.004200, -0.040500, 0.001800) | rot:     (0.000, 90.000, 0.000) | scale:   (0.001000, 0.003000, 0.001000) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+105: Thumb_Rotation_Stop_Lug                | pos: (-0.005200, -0.039600, 0.002500) | rot:    (0.000, 0.000, 335.000) | scale:   (0.001000, 0.001200, 0.001200) | mat: Mat_IronMan_Gold       | mesh: Cube | children: 0
+106: Repulsor_Iris_OuterBezel               | pos: (0.000000, -0.041000, -0.002600) | rot:     (90.000, 0.000, 0.000) | scale:   (0.007400, 0.000800, 0.007400) | mat: Mat_IronMan_Silver     | mesh: Cylinder | children: 0
+107: Repulsor_Iris_Blade_1                  | pos: (0.001600, -0.039400, -0.003100) | rot:     (0.000, 0.000, 45.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+108: Repulsor_Iris_Blade_2                  | pos: (0.001600, -0.042600, -0.003100) | rot:    (0.000, 0.000, 135.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+109: Repulsor_Iris_Blade_3                  | pos: (-0.001600, -0.042600, -0.003100) | rot:    (0.000, 0.000, 225.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+110: Repulsor_Iris_Blade_4                  | pos: (-0.001600, -0.039400, -0.003100) | rot:    (0.000, 0.000, 315.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | mesh: Cube | children: 0
+111: Repulsor_Iris_CopperRing               | pos: (0.000000, -0.041000, -0.003300) | rot:     (90.000, 0.000, 0.000) | scale:   (0.004800, 0.000800, 0.004800) | mat: Mat_CopperCoil         | mesh: Cylinder | children: 0
+112: Repulsor_Iris_FocusCollar              | pos: (0.000000, -0.041000, -0.003500) | rot:     (90.000, 0.000, 0.000) | scale:   (0.003800, 0.001000, 0.003800) | mat: Mat_IronMan_DarkMetal  | mesh: Cylinder | children: 0
+
+--- 3. ALL CHILDREN OF RightArmPivot (113 children) ---
+  0: Deltoid_Ball_Core                      | pos:   (0.000000, 0.000000, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009000, 0.009000, 0.009000) | mat: Mat_IronMan_DarkMetal  | children: 0
+  1: Pauldron_Outer_Shell                   | pos:  (-0.002200, 0.006200, 0.000000) | rot:     (0.000, 0.000, 15.000) | scale:   (0.018500, 0.013500, 0.018500) | mat: Mat_IronMan_Red        | children: 0
+  2: Pauldron_Gold_UnderFlange              | pos:  (-0.002000, 0.004000, 0.000000) | rot:     (0.000, 0.000, 15.000) | scale:   (0.016500, 0.011500, 0.016500) | mat: Mat_IronMan_Gold       | children: 0
+  3: Pauldron_Thruster_Bezel                | pos:  (-0.009200, 0.007800, 0.000000) | rot:     (0.000, 0.000, 75.000) | scale:   (0.002800, 0.001200, 0.002800) | mat: Mat_IronMan_DarkMetal  | children: 0
+  4: Pauldron_Thruster_Throat               | pos:  (-0.009400, 0.007800, 0.000000) | rot:     (0.000, 0.000, 75.000) | scale:   (0.001600, 0.001400, 0.001600) | mat: Mat_IronMan_Silver     | children: 0
+  5: Pauldron_Actuator_Cylinder             | pos:  (0.002000, 0.004500, -0.001500) | rot:    (8.000, 0.000, 338.000) | scale:   (0.001800, 0.004000, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+  6: Pauldron_Actuator_Piston               | pos: (-0.000500, 0.006800, -0.001800) | rot:    (8.000, 0.000, 338.000) | scale:   (0.001000, 0.003500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+  7: Deltoid_Collar_Seal                    | pos:  (0.000000, -0.003200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.008400, 0.001200, 0.008400) | mat: Mat_IronMan_DarkMetal  | children: 0
+  8: Humeral_Core_Strut                     | pos:  (0.000000, -0.008500, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.007500, 0.009000, 0.007500) | mat: Mat_IronMan_DarkMetal  | children: 0
+  9: Bicep_Lateral_Head                     | pos: (-0.002200, -0.008200, 0.003500) | rot:     (5.000, 10.000, 2.000) | scale:   (0.004200, 0.009500, 0.003800) | mat: Mat_IronMan_Gold       | children: 0
+ 10: Bicep_Medial_Head                      | pos:  (0.002200, -0.008200, 0.003500) | rot:  (5.000, 350.000, 358.000) | scale:   (0.004200, 0.009500, 0.003800) | mat: Mat_IronMan_Gold       | children: 0
+ 11: Bicep_Median_Seam                      | pos:  (0.000000, -0.008200, 0.004200) | rot:      (5.000, 0.000, 0.000) | scale:   (0.001000, 0.009800, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 12: Tricep_Shell_Crimson                   | pos: (0.000000, -0.008200, -0.003800) | rot:    (355.000, 0.000, 0.000) | scale:   (0.008600, 0.010500, 0.004500) | mat: Mat_IronMan_Red        | children: 0
+ 13: Tricep_Tendon_Rail                     | pos: (0.000000, -0.008200, -0.005500) | rot:    (355.000, 0.000, 0.000) | scale:   (0.002600, 0.011000, 0.001600) | mat: Mat_IronMan_Silver     | children: 0
+ 14: Tricep_Carbon_Tendon                   | pos: (0.000000, -0.008200, -0.005800) | rot:    (355.000, 0.000, 0.000) | scale:   (0.001200, 0.005200, 0.001200) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 15: Bicep_Distal_Cuff                      | pos:  (0.000000, -0.014200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009200, 0.001500, 0.009200) | mat: Mat_IronMan_Gold       | children: 0
+ 16: Elbow_Chassis_Block                    | pos:  (0.000000, -0.017200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.007200, 0.005500, 0.006800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 17: Elbow_Axle_Superior                    | pos:  (0.000000, -0.015800, 0.000800) | rot:     (0.000, 0.000, 90.000) | scale:   (0.004000, 0.004800, 0.004000) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 18: Elbow_Axle_Inferior                    | pos: (0.000000, -0.018600, -0.000800) | rot:     (0.000, 0.000, 90.000) | scale:   (0.004000, 0.004800, 0.004000) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 19: Elbow_Pivot_Cap_Silver                 | pos: (-0.004500, -0.017200, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.006200, 0.001000, 0.006200) | mat: Mat_IronMan_Silver     | children: 0
+ 20: Elbow_Pivot_Hub_DarkMetal              | pos: (-0.004900, -0.017200, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.003500, 0.001100, 0.003500) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 21: Elbow_Pivot_Cap_Medial                 | pos:  (0.004200, -0.017200, 0.000000) | rot:     (0.000, 0.000, 90.000) | scale:   (0.005500, 0.000800, 0.005500) | mat: Mat_IronMan_Silver     | children: 0
+ 22: Elbow_Cop_Base_Red                     | pos: (0.000000, -0.018200, -0.005000) | rot:    (15.000, 45.000, 0.000) | scale:   (0.006200, 0.006200, 0.003500) | mat: Mat_IronMan_Red        | children: 0
+ 23: Elbow_Cop_Rim_Gold                     | pos: (0.000000, -0.018200, -0.005800) | rot:    (15.000, 45.000, 0.000) | scale:   (0.004200, 0.004200, 0.002800) | mat: Mat_IronMan_Gold       | children: 0
+ 24: Elbow_Conduit_Lateral                  | pos: (-0.002200, -0.017200, 0.003600) | rot:     (25.000, 0.000, 0.000) | scale:   (0.001400, 0.003000, 0.001400) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 25: Elbow_Conduit_Medial                   | pos:  (0.002200, -0.017200, 0.003600) | rot:     (25.000, 0.000, 0.000) | scale:   (0.001400, 0.003000, 0.001400) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 26: Elbow_Copper_Bus                       | pos:  (0.000000, -0.017200, 0.003800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001800, 0.001400, 0.001400) | mat: Mat_CopperCoil         | children: 0
+ 27: Gauntlet_Main_Chassis                  | pos:  (0.000000, -0.027500, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.012500, 0.014500, 0.012500) | mat: Mat_IronMan_Red        | children: 0
+ 28: Gauntlet_Anterior_Plate                | pos:  (0.000000, -0.027000, 0.004800) | rot:    (357.000, 0.000, 0.000) | scale:   (0.010500, 0.013500, 0.004000) | mat: Mat_IronMan_Red        | children: 0
+ 29: Gauntlet_Ulna_Ridge                    | pos: (0.000000, -0.027500, -0.005200) | rot:      (2.000, 0.000, 0.000) | scale:   (0.007500, 0.014000, 0.003200) | mat: Mat_IronMan_Red        | children: 0
+ 30: Gauntlet_Panel_Channel_Lat             | pos: (-0.005800, -0.027500, 0.001000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.014800, 0.002200) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 31: Missile_Pod_Base_Gold                  | pos:  (0.000000, -0.027000, 0.006500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.008200, 0.010500, 0.003500) | mat: Mat_IronMan_Gold       | children: 0
+ 32: Missile_Pod_Hatch_Red                  | pos:  (0.000000, -0.026500, 0.007800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.006800, 0.008000, 0.001500) | mat: Mat_IronMan_Red        | children: 0
+ 33: Missile_Launch_Bay_Trench              | pos:  (0.000000, -0.023200, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.006000, 0.002200, 0.002500) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 34: Missile_Warhead_L                      | pos: (-0.001800, -0.023000, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | children: 0
+ 35: Missile_Warhead_R                      | pos:  (0.001800, -0.023000, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | children: 0
+ 36: Aero_Flight_Flap_Fin                   | pos: (-0.006800, -0.026500, -0.001500) | rot:  (0.000, 348.000, 352.000) | scale:   (0.001500, 0.009500, 0.005500) | mat: Mat_IronMan_Red        | children: 0
+ 37: Aero_Flight_Flap_Hinge                 | pos: (-0.006200, -0.022500, -0.001500) | rot:     (90.000, 0.000, 0.000) | scale:   (0.001400, 0.002200, 0.001400) | mat: Mat_IronMan_Silver     | children: 0
+ 38: Wrist_Retention_Ring_Gold              | pos:  (0.000000, -0.034800, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.010500, 0.001800, 0.010500) | mat: Mat_IronMan_Gold       | children: 0
+ 39: Wrist_Pressure_Gasket_Dark             | pos:  (0.000000, -0.036200, 0.000000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009400, 0.001400, 0.009400) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 40: Hand_Dorsal_Plate_Red                  | pos:  (0.000000, -0.039800, 0.002200) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009200, 0.006500, 0.007500) | mat: Mat_IronMan_Red        | children: 0
+ 41: Hand_Chevron_Gold                      | pos:  (0.000000, -0.039200, 0.005500) | rot:     (0.000, 0.000, 45.000) | scale:   (0.003500, 0.003500, 0.001500) | mat: Mat_IronMan_Gold       | children: 0
+ 42: Knuckle_Bridge_Gold                    | pos:  (0.000000, -0.043000, 0.003200) | rot:      (0.000, 0.000, 0.000) | scale:   (0.009800, 0.002200, 0.003200) | mat: Mat_IronMan_Gold       | children: 0
+ 43: Knuckle_Stud_Index                     | pos:  (0.003300, -0.043000, 0.004600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | children: 0
+ 44: Knuckle_Stud_Middle                    | pos:  (0.001100, -0.043000, 0.004800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | children: 0
+ 45: Knuckle_Stud_Ring                      | pos: (-0.001100, -0.043000, 0.004800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | children: 0
+ 46: Knuckle_Stud_Pinky                     | pos: (-0.003300, -0.043000, 0.004600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_Silver     | children: 0
+ 47: Finger_Bank_Proximal                   | pos:  (0.000000, -0.045600, 0.002800) | rot:      (8.000, 0.000, 0.000) | scale:   (0.008800, 0.003200, 0.002800) | mat: Mat_IronMan_Red        | children: 0
+ 48: Finger_Joint_Bar_Gold                  | pos:  (0.000000, -0.047400, 0.002600) | rot:     (16.000, 0.000, 0.000) | scale:   (0.008600, 0.001200, 0.002400) | mat: Mat_IronMan_Gold       | children: 0
+ 49: Finger_Bank_Distal                     | pos:  (0.000000, -0.049400, 0.001800) | rot:     (26.000, 0.000, 0.000) | scale:   (0.008400, 0.003000, 0.002500) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 50: Thumb_Basal_Joint_Gold                 | pos:  (0.004200, -0.040500, 0.001800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002200, 0.002200) | mat: Mat_IronMan_Gold       | children: 0
+ 51: Thumb_Distal_Red                       | pos:  (0.004600, -0.042800, 0.001500) | rot:  (12.000, 15.000, 342.000) | scale:   (0.002000, 0.003200, 0.002200) | mat: Mat_IronMan_Red        | children: 0
+ 52: Repulsor_Bezel                         | pos: (0.000000, -0.041000, -0.002800) | rot:     (90.000, 0.000, 0.000) | scale:   (0.006600, 0.001600, 0.006600) | mat: Mat_IronMan_Silver     | children: 0
+ 53: Repulsor_Iris_Throat                   | pos: (0.000000, -0.041000, -0.003200) | rot:     (90.000, 0.000, 0.000) | scale:   (0.005200, 0.001800, 0.005200) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 54: Repulsor_Coil_Accent                   | pos: (0.000000, -0.041000, -0.003400) | rot:     (90.000, 0.000, 0.000) | scale:   (0.004200, 0.001900, 0.004200) | mat: Mat_CopperCoil         | children: 0
+ 55: RepulsorPalm                           | pos: (0.000000, -0.041000, -0.003800) | rot:     (90.000, 0.000, 0.000) | scale:   (0.003400, 0.002200, 0.003400) | mat: Mat_EmissiveBlue       | children: 0
+ 56: Pauldron_Scissor_UpperBracket          | pos:   (0.004500, 0.008500, 0.000000) | rot:    (0.000, 0.000, 345.000) | scale:   (0.001600, 0.004200, 0.002800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 57: Pauldron_Scissor_LowerBracket          | pos:   (0.006500, 0.005500, 0.000000) | rot:     (0.000, 0.000, 20.000) | scale:   (0.001400, 0.004800, 0.002400) | mat: Mat_IronMan_Silver     | children: 0
+ 58: Pauldron_Scissor_PivotPin              | pos:   (0.005500, 0.007000, 0.000000) | rot:     (90.000, 0.000, 0.000) | scale:   (0.001200, 0.003200, 0.001200) | mat: Mat_IronMan_Gold       | children: 0
+ 59: Pauldron_Slide_Rail_Anterior           | pos:   (0.001000, 0.008200, 0.003500) | rot:    (15.000, 0.000, 15.000) | scale:   (0.001000, 0.008500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+ 60: Pauldron_Slide_Rail_Posterior          | pos:  (0.001000, 0.008200, -0.003500) | rot:   (345.000, 0.000, 15.000) | scale:   (0.001000, 0.008500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+ 61: Pauldron_Slide_Shoe_Anterior           | pos:   (0.001000, 0.008200, 0.003500) | rot:    (15.000, 0.000, 15.000) | scale:   (0.001800, 0.002600, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 62: Pauldron_Slide_Shoe_Posterior          | pos:  (0.001000, 0.008200, -0.003500) | rot:   (345.000, 0.000, 15.000) | scale:   (0.001800, 0.002600, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 63: Pauldron_RCS_ExhaustLip                | pos:  (-0.010200, 0.007800, 0.000000) | rot:     (0.000, 0.000, 75.000) | scale:   (0.003300, 0.000600, 0.003300) | mat: Mat_IronMan_Silver     | children: 0
+ 64: Pauldron_RCS_CopperRing                | pos:  (-0.009800, 0.007800, 0.000000) | rot:     (0.000, 0.000, 75.000) | scale:   (0.003000, 0.000500, 0.003000) | mat: Mat_CopperCoil         | children: 0
+ 65: Pauldron_RCS_PlasmaCore                | pos:  (-0.009500, 0.007800, 0.000000) | rot:     (0.000, 0.000, 75.000) | scale:   (0.001400, 0.000400, 0.001400) | mat: Mat_EmissiveBlue       | children: 0
+ 66: Deltoid_Sensor_Ring_Equator            | pos:   (0.000000, 0.000000, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.009400, 0.001200, 0.009400) | mat: Mat_CopperCoil         | children: 0
+ 67: Deltoid_Sensor_Ring_Meridian           | pos:   (0.000000, 0.000000, 0.000000) | rot:     (90.000, 0.000, 0.000) | scale:   (0.009300, 0.001000, 0.009300) | mat: Mat_IronMan_Silver     | children: 0
+ 68: Deltoid_Sensor_PickupHead              | pos:   (0.000000, 0.003800, 0.003800) | rot:     (45.000, 0.000, 0.000) | scale:   (0.002200, 0.001800, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 69: Humeral_Telemetry_Housing              | pos: (-0.004200, -0.008000, 0.000000) | rot:    (0.000, 0.000, 350.000) | scale:   (0.001600, 0.004500, 0.003800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 70: Humeral_Telemetry_Socket               | pos: (-0.004800, -0.008000, 0.000000) | rot:    (0.000, 0.000, 350.000) | scale:   (0.000800, 0.003200, 0.002600) | mat: Mat_IronMan_Gold       | children: 0
+ 71: Humeral_Telemetry_CoverFlap            | pos: (-0.005100, -0.006000, 0.000000) | rot:    (0.000, 0.000, 335.000) | scale:   (0.000600, 0.002000, 0.003000) | mat: Mat_IronMan_Silver     | children: 0
+ 72: Humeral_Telemetry_DataNode             | pos: (-0.004900, -0.009200, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.000800, 0.000500, 0.000800) | mat: Mat_EmissiveBlue       | children: 0
+ 73: Bicep_Junction_Box_Lat                 | pos: (-0.003200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002800, 0.002200) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 74: Bicep_Junction_Box_Med                 | pos:  (0.003200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002800, 0.002200) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 75: Bicep_Diag_Plate_Lat                   | pos: (-0.004200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.000500, 0.002200, 0.001600) | mat: Mat_IronMan_Gold       | children: 0
+ 76: Bicep_Diag_Plate_Med                   | pos:  (0.004200, -0.013500, 0.002600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.000500, 0.002200, 0.001600) | mat: Mat_IronMan_Gold       | children: 0
+ 77: Bicep_Conduit_Ferrule_Lat              | pos: (-0.002800, -0.015000, 0.003200) | rot:     (15.000, 0.000, 0.000) | scale:   (0.001500, 0.001200, 0.001500) | mat: Mat_IronMan_Silver     | children: 0
+ 78: Bicep_Conduit_Ferrule_Med              | pos:  (0.002800, -0.015000, 0.003200) | rot:     (15.000, 0.000, 0.000) | scale:   (0.001500, 0.001200, 0.001500) | mat: Mat_IronMan_Silver     | children: 0
+ 79: Elbow_Circlip_Ring_Lat                 | pos: (-0.005000, -0.017200, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.005400, 0.000300, 0.005400) | mat: Mat_IronMan_Silver     | children: 0
+ 80: Elbow_Circlip_Ring_Med                 | pos:  (0.004600, -0.017200, 0.000000) | rot:    (0.000, 0.000, 270.000) | scale:   (0.005000, 0.000300, 0.005000) | mat: Mat_IronMan_Silver     | children: 0
+ 81: Elbow_Lube_Port_Lat                    | pos: (-0.005200, -0.015200, 0.001200) | rot:    (0.000, 0.000, 270.000) | scale:   (0.001000, 0.000800, 0.001000) | mat: Mat_IronMan_Gold       | children: 0
+ 82: Elbow_Lube_Port_Med                    | pos:  (0.004800, -0.015200, 0.001200) | rot:    (0.000, 0.000, 270.000) | scale:   (0.001000, 0.000800, 0.001000) | mat: Mat_IronMan_Gold       | children: 0
+ 83: Missile_Latch_Clip_Ant                 | pos:  (0.000000, -0.021800, 0.007500) | rot:     (15.000, 0.000, 0.000) | scale:   (0.004500, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | children: 0
+ 84: Missile_Latch_Clip_Post                | pos:  (0.000000, -0.030800, 0.007200) | rot:    (345.000, 0.000, 0.000) | scale:   (0.004500, 0.001200, 0.001400) | mat: Mat_IronMan_Silver     | children: 0
+ 85: Missile_Latch_Solenoid                 | pos:  (0.000000, -0.021000, 0.006200) | rot:     (90.000, 0.000, 0.000) | scale:   (0.001400, 0.001800, 0.001400) | mat: Mat_IronMan_Gold       | children: 0
+ 86: Targeting_Optic_Housing                | pos:  (0.000000, -0.020200, 0.005500) | rot:     (20.000, 0.000, 0.000) | scale:   (0.004200, 0.002200, 0.002600) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 87: Targeting_Optic_Prism                  | pos:  (0.000000, -0.019800, 0.006400) | rot:     (70.000, 0.000, 0.000) | scale:   (0.002200, 0.001200, 0.002200) | mat: Mat_EmissiveBlue       | children: 0
+ 88: Gauntlet_Standoff_Lat_Upper            | pos: (-0.006000, -0.023500, 0.002000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.002200, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 89: Gauntlet_Standoff_Lat_Lower            | pos: (-0.006000, -0.031500, 0.002000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.002200, 0.001800) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 90: Gauntlet_HeatVent_Louver_Lat           | pos: (-0.006400, -0.027500, -0.003000) | rot:    (0.000, 345.000, 0.000) | scale:   (0.001200, 0.008500, 0.002400) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 91: Gauntlet_HeatVent_Louver_Med           | pos: (0.006400, -0.027500, -0.003000) | rot:     (0.000, 15.000, 0.000) | scale:   (0.001200, 0.008500, 0.002400) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 92: Gauntlet_HeatVent_Core_Lat             | pos: (-0.006000, -0.027500, -0.003000) | rot:    (0.000, 345.000, 0.000) | scale:   (0.000600, 0.007500, 0.001800) | mat: Mat_CopperCoil         | children: 0
+ 93: Gauntlet_HeatVent_Core_Med             | pos: (0.006000, -0.027500, -0.003000) | rot:     (0.000, 15.000, 0.000) | scale:   (0.000600, 0.007500, 0.001800) | mat: Mat_CopperCoil         | children: 0
+ 94: Wrist_Pressure_Valve_Fitting           | pos: (-0.005000, -0.035500, 0.001500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.002200, 0.002000, 0.002200) | mat: Mat_IronMan_Silver     | children: 0
+ 95: Wrist_Pressure_Relief_Nozzle           | pos: (-0.005800, -0.035500, 0.001500) | rot:    (0.000, 0.000, 270.000) | scale:   (0.001000, 0.000800, 0.001000) | mat: Mat_IronMan_DarkMetal  | children: 0
+ 96: Wrist_Screw_Ant_Lat                    | pos: (-0.003600, -0.034800, 0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+ 97: Wrist_Screw_Ant_Med                    | pos:  (0.003600, -0.034800, 0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+ 98: Wrist_Screw_Post_Lat                   | pos: (-0.003600, -0.034800, -0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+ 99: Wrist_Screw_Post_Med                   | pos: (0.003600, -0.034800, -0.003600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001000, 0.000500, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+100: Hand_Rivet_Prox_Lat                    | pos: (-0.002800, -0.038000, 0.005600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.001200) | mat: Mat_IronMan_Silver     | children: 0
+101: Hand_Rivet_Prox_Med                    | pos:  (0.002800, -0.038000, 0.005600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.001200) | mat: Mat_IronMan_Silver     | children: 0
+102: Hand_Rivet_Dist_Center                 | pos:  (0.000000, -0.041000, 0.005800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001400, 0.001400) | mat: Mat_IronMan_Gold       | children: 0
+103: Thumb_Gimbal_Yoke                      | pos:  (0.003600, -0.039200, 0.001800) | rot:     (0.000, 0.000, 25.000) | scale:   (0.001800, 0.002800, 0.002400) | mat: Mat_IronMan_DarkMetal  | children: 0
+104: Thumb_Gimbal_HingePin                  | pos:  (0.004200, -0.040500, 0.001800) | rot:    (0.000, 270.000, 0.000) | scale:   (0.001000, 0.003000, 0.001000) | mat: Mat_IronMan_Silver     | children: 0
+105: Thumb_Rotation_Stop_Lug                | pos:  (0.005200, -0.039600, 0.002500) | rot:     (0.000, 0.000, 25.000) | scale:   (0.001000, 0.001200, 0.001200) | mat: Mat_IronMan_Gold       | children: 0
+106: Repulsor_Iris_OuterBezel               | pos: (0.000000, -0.041000, -0.002600) | rot:     (90.000, 0.000, 0.000) | scale:   (0.007400, 0.000800, 0.007400) | mat: Mat_IronMan_Silver     | children: 0
+107: Repulsor_Iris_Blade_1                  | pos: (-0.001600, -0.039400, -0.003100) | rot:    (0.000, 0.000, 315.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | children: 0
+108: Repulsor_Iris_Blade_2                  | pos: (-0.001600, -0.042600, -0.003100) | rot:    (0.000, 0.000, 225.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | children: 0
+109: Repulsor_Iris_Blade_3                  | pos: (0.001600, -0.042600, -0.003100) | rot:    (0.000, 0.000, 135.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | children: 0
+110: Repulsor_Iris_Blade_4                  | pos: (0.001600, -0.039400, -0.003100) | rot:     (0.000, 0.000, 45.000) | scale:   (0.002600, 0.000800, 0.000600) | mat: Mat_IronMan_Silver     | children: 0
+111: Repulsor_Iris_CopperRing               | pos: (0.000000, -0.041000, -0.003300) | rot:     (90.000, 0.000, 0.000) | scale:   (0.004800, 0.000800, 0.004800) | mat: Mat_CopperCoil         | children: 0
+112: Repulsor_Iris_FocusCollar              | pos: (0.000000, -0.041000, -0.003500) | rot:     (90.000, 0.000, 0.000) | scale:   (0.003800, 0.001000, 0.003800) | mat: Mat_IronMan_DarkMetal  | children: 0
+
+--- 4. TORSO KEY LATERAL / FLANK / SERRATUS / REACTOR CHILDREN (171 children) ---
+  2: Pectoral_L_Clavicular               | pos:  (-0.011500, 0.010500, 0.011500) | rot:   (12.000, 352.000, 4.000) | scale:   (0.013500, 0.009000, 0.006000) | mat: Mat_IronMan_Red
+  3: Pectoral_R_Clavicular               | pos:   (0.011500, 0.010500, 0.011500) | rot:   (12.000, 8.000, 356.000) | scale:   (0.013500, 0.009000, 0.006000) | mat: Mat_IronMan_Red
+  4: Pectoral_L_Sternal                  | pos:  (-0.012000, 0.003500, 0.012500) | rot:  (352.000, 350.000, 2.000) | scale:   (0.014000, 0.010000, 0.006500) | mat: Mat_IronMan_Red
+  5: Pectoral_R_Sternal                  | pos:   (0.012000, 0.003500, 0.012500) | rot: (352.000, 10.000, 358.000) | scale:   (0.014000, 0.010000, 0.006500) | mat: Mat_IronMan_Red
+ 10: Cowl_L_Trapezius                    | pos:  (-0.015500, 0.016500, 0.005000) | rot: (354.000, 350.000, 348.000) | scale:   (0.013500, 0.004500, 0.016000) | mat: Mat_IronMan_Red
+ 11: Cowl_R_Trapezius                    | pos:   (0.015500, 0.016500, 0.005000) | rot:  (354.000, 10.000, 12.000) | scale:   (0.013500, 0.004500, 0.016000) | mat: Mat_IronMan_Red
+ 12: Clavicle_L_Crest                    | pos:  (-0.013500, 0.015000, 0.010500) | rot:  (5.000, 354.000, 352.000) | scale:   (0.013000, 0.003500, 0.004000) | mat: Mat_IronMan_Red
+ 13: Clavicle_R_Crest                    | pos:   (0.013500, 0.015000, 0.010500) | rot:      (5.000, 6.000, 8.000) | scale:   (0.013000, 0.003500, 0.004000) | mat: Mat_IronMan_Red
+ 14: Clavicle_L_GoldInset                | pos:  (-0.013000, 0.015600, 0.011200) | rot:  (5.000, 354.000, 352.000) | scale:   (0.010000, 0.001800, 0.002000) | mat: Mat_IronMan_Gold
+ 15: Clavicle_R_GoldInset                | pos:   (0.013000, 0.015600, 0.011200) | rot:      (5.000, 6.000, 8.000) | scale:   (0.010000, 0.001800, 0.002000) | mat: Mat_IronMan_Gold
+ 17: Reactor_T1_OuterBezel               | pos:   (0.000000, 0.006000, 0.013500) | rot:     (90.000, 0.000, 0.000) | scale:   (0.014000, 0.001800, 0.014000) | mat: Mat_IronMan_Silver
+ 18: Reactor_T1_ChamferCollar            | pos:   (0.000000, 0.006000, 0.013000) | rot:     (90.000, 0.000, 0.000) | scale:   (0.015200, 0.001000, 0.015200) | mat: Mat_IronMan_DarkMetal
+ 19: Reactor_T1_Bolt_Top                 | pos:   (0.000000, 0.012100, 0.014400) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.000800) | mat: Mat_IronMan_DarkMetal
+ 20: Reactor_T1_Bolt_Bottom              | pos:  (0.000000, -0.000100, 0.014400) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.000800) | mat: Mat_IronMan_DarkMetal
+ 21: Reactor_T1_Bolt_Left                | pos:  (-0.006100, 0.006000, 0.014400) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.000800) | mat: Mat_IronMan_DarkMetal
+ 22: Reactor_T1_Bolt_Right               | pos:   (0.006100, 0.006000, 0.014400) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.001200, 0.000800) | mat: Mat_IronMan_DarkMetal
+ 23: Reactor_T2_TrenchInsulator          | pos:   (0.000000, 0.006000, 0.013800) | rot:     (90.000, 0.000, 0.000) | scale:   (0.012200, 0.001200, 0.012200) | mat: Mat_IronMan_DarkMetal
+ 24: Reactor_T3_Coil_0                   | pos:   (0.000000, 0.010500, 0.014200) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 25: Reactor_T3_Coil_1                   | pos:   (0.002645, 0.009641, 0.014200) | rot:    (0.000, 0.000, 324.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 26: Reactor_T3_Coil_2                   | pos:   (0.004280, 0.007391, 0.014200) | rot:    (0.000, 0.000, 288.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 27: Reactor_T3_Coil_3                   | pos:   (0.004280, 0.004609, 0.014200) | rot:    (0.000, 0.000, 252.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 28: Reactor_T3_Coil_4                   | pos:   (0.002645, 0.002359, 0.014200) | rot:    (0.000, 0.000, 216.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 29: Reactor_T3_Coil_5                   | pos:   (0.000000, 0.001500, 0.014200) | rot:    (0.000, 0.000, 180.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 30: Reactor_T3_Coil_6                   | pos:  (-0.002645, 0.002359, 0.014200) | rot:    (0.000, 0.000, 144.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 31: Reactor_T3_Coil_7                   | pos:  (-0.004280, 0.004609, 0.014200) | rot:    (0.000, 0.000, 108.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 32: Reactor_T3_Coil_8                   | pos:  (-0.004280, 0.007391, 0.014200) | rot:     (0.000, 0.000, 72.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 33: Reactor_T3_Coil_9                   | pos:  (-0.002645, 0.009641, 0.014200) | rot:     (0.000, 0.000, 36.000) | scale:   (0.001300, 0.002000, 0.001400) | mat: Mat_CopperCoil
+ 34: Reactor_T4_ReflectorDish            | pos:   (0.000000, 0.006000, 0.014300) | rot:     (90.000, 0.000, 0.000) | scale:   (0.008200, 0.000800, 0.008200) | mat: Mat_IronMan_Silver
+ 35: Reactor_T4_StarkBracket_0           | pos:   (0.000000, 0.008800, 0.014700) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001200, 0.002200, 0.001000) | mat: Mat_IronMan_Silver
+ 36: Reactor_T4_StarkBracket_1           | pos:   (0.002425, 0.004600, 0.014700) | rot:    (0.000, 0.000, 240.000) | scale:   (0.001200, 0.002200, 0.001000) | mat: Mat_IronMan_Silver
+ 37: Reactor_T4_StarkBracket_2           | pos:  (-0.002425, 0.004600, 0.014700) | rot:    (0.000, 0.000, 120.000) | scale:   (0.001200, 0.002200, 0.001000) | mat: Mat_IronMan_Silver
+ 38: ReactorCore                         | pos:   (0.000000, 0.006000, 0.014800) | rot:     (90.000, 0.000, 0.000) | scale:   (0.004800, 0.002200, 0.004800) | mat: Mat_EmissiveBlue
+ 39: Reactor_T6_Strut_TL                 | pos:  (-0.006800, 0.010500, 0.013500) | rot:    (0.000, 0.000, 318.000) | scale:   (0.001000, 0.003500, 0.001000) | mat: Mat_IronMan_Silver
+ 40: Reactor_T6_Strut_TR                 | pos:   (0.006800, 0.010500, 0.013500) | rot:     (0.000, 0.000, 42.000) | scale:   (0.001000, 0.003500, 0.001000) | mat: Mat_IronMan_Silver
+ 41: Reactor_T6_Strut_BL                 | pos:  (-0.006200, 0.001500, 0.013000) | rot:     (0.000, 0.000, 45.000) | scale:   (0.001000, 0.003000, 0.001000) | mat: Mat_IronMan_Silver
+ 42: Reactor_T6_Strut_BR                 | pos:   (0.006200, 0.001500, 0.013000) | rot:    (0.000, 0.000, 315.000) | scale:   (0.001000, 0.003000, 0.001000) | mat: Mat_IronMan_Silver
+ 43: Reactor_T7_IrisRing                 | pos:   (0.000000, 0.006000, 0.015200) | rot:     (90.000, 0.000, 0.000) | scale:   (0.003000, 0.000600, 0.003000) | mat: Mat_IronMan_DarkMetal
+ 44: Reactor_T7_SparkNode                | pos:   (0.000000, 0.006000, 0.015600) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001500, 0.001500, 0.001500) | mat: Mat_EmissiveBlue
+ 45: Serratus_L_Rib1_Red                 | pos:  (-0.019500, 0.003000, 0.006500) | rot: (14.000, 342.000, 348.000) | scale:   (0.004500, 0.003500, 0.013500) | mat: Mat_IronMan_Red
+ 46: Serratus_R_Rib1_Red                 | pos:   (0.019500, 0.003000, 0.006500) | rot:   (14.000, 18.000, 12.000) | scale:   (0.004500, 0.003500, 0.013500) | mat: Mat_IronMan_Red
+ 47: Serratus_L_Rib2_Gold                | pos: (-0.019000, -0.002500, 0.006000) | rot: (14.000, 344.000, 350.000) | scale:   (0.004500, 0.003500, 0.013000) | mat: Mat_IronMan_Gold
+ 48: Serratus_R_Rib2_Gold                | pos:  (0.019000, -0.002500, 0.006000) | rot:   (14.000, 16.000, 10.000) | scale:   (0.004500, 0.003500, 0.013000) | mat: Mat_IronMan_Gold
+ 49: Serratus_L_Rib3_Red                 | pos: (-0.018000, -0.008000, 0.005500) | rot: (14.000, 346.000, 352.000) | scale:   (0.004500, 0.003200, 0.012000) | mat: Mat_IronMan_Red
+ 50: Serratus_R_Rib3_Red                 | pos:  (0.018000, -0.008000, 0.005500) | rot:    (14.000, 14.000, 8.000) | scale:   (0.004500, 0.003200, 0.012000) | mat: Mat_IronMan_Red
+ 57: Ab_L_Epigastric                     | pos: (-0.006000, -0.004500, 0.011500) | rot:  (354.000, 356.000, 0.000) | scale:   (0.005500, 0.003800, 0.003000) | mat: Mat_IronMan_Red
+ 58: Ab_R_Epigastric                     | pos:  (0.006000, -0.004500, 0.011500) | rot:    (354.000, 4.000, 0.000) | scale:   (0.005500, 0.003800, 0.003000) | mat: Mat_IronMan_Red
+ 59: Ab_Gasket_Epigastric                | pos:  (0.000000, -0.007000, 0.010500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.016000, 0.001800, 0.002800) | mat: Mat_IronMan_DarkMetal
+ 60: Ab_L_Umbilical                      | pos: (-0.005500, -0.009500, 0.011000) | rot:  (356.000, 356.000, 0.000) | scale:   (0.005200, 0.003600, 0.003000) | mat: Mat_IronMan_Red
+ 61: Ab_R_Umbilical                      | pos:  (0.005500, -0.009500, 0.011000) | rot:    (356.000, 4.000, 0.000) | scale:   (0.005200, 0.003600, 0.003000) | mat: Mat_IronMan_Red
+ 62: Ab_Gasket_Umbilical                 | pos:  (0.000000, -0.012000, 0.010000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.015000, 0.001800, 0.002800) | mat: Mat_IronMan_DarkMetal
+ 63: Ab_L_Hypogastric                    | pos: (-0.005000, -0.014200, 0.010200) | rot:  (358.000, 356.000, 0.000) | scale:   (0.004800, 0.003200, 0.002800) | mat: Mat_IronMan_Red
+ 64: Ab_R_Hypogastric                    | pos:  (0.005000, -0.014200, 0.010200) | rot:    (358.000, 4.000, 0.000) | scale:   (0.004800, 0.003200, 0.002800) | mat: Mat_IronMan_Red
+ 65: Ab_LineaAlba_Keel                   | pos:  (0.000000, -0.009500, 0.010800) | rot:    (356.000, 0.000, 0.000) | scale:   (0.001500, 0.014000, 0.002400) | mat: Mat_IronMan_DarkMetal
+ 66: Ab_LineaAlba_NodeUpper              | pos:  (0.000000, -0.007000, 0.011500) | rot:    (356.000, 0.000, 0.000) | scale:   (0.001600, 0.001400, 0.001400) | mat: Mat_IronMan_Gold
+ 67: Ab_LineaAlba_NodeMid                | pos:  (0.000000, -0.012000, 0.011000) | rot:    (356.000, 0.000, 0.000) | scale:   (0.001600, 0.001400, 0.001400) | mat: Mat_IronMan_Gold
+ 84: AirBrake_L_Ribs                     | pos: (-0.013000, 0.010500, -0.013500) | rot: (348.000, 18.000, 354.000) | scale:   (0.008000, 0.010500, 0.001500) | mat: Mat_IronMan_DarkMetal
+ 85: AirBrake_R_Ribs                     | pos:  (0.013000, 0.010500, -0.013500) | rot:  (348.000, 342.000, 6.000) | scale:   (0.008000, 0.010500, 0.001500) | mat: Mat_IronMan_DarkMetal
+114: TieBar_Pectoral_Sup_L               | pos:  (-0.009200, 0.011800, 0.009000) | rot:  (45.000, 320.000, 25.000) | scale:   (0.001000, 0.003600, 0.001000) | mat: Mat_IronMan_Silver
+115: TieBar_Pectoral_Sup_R               | pos:   (0.009200, 0.011800, 0.009000) | rot:  (45.000, 40.000, 335.000) | scale:   (0.001000, 0.003600, 0.001000) | mat: Mat_IronMan_Silver
+116: TieBar_Pectoral_Sup_Clevis_L        | pos:  (-0.007000, 0.013000, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_DarkMetal
+117: TieBar_Pectoral_Sup_Clevis_R        | pos:   (0.007000, 0.013000, 0.006800) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001600, 0.001600, 0.001600) | mat: Mat_IronMan_DarkMetal
+118: TieBar_Pectoral_Inf_L               | pos:  (-0.009200, 0.003800, 0.010000) | rot: (340.000, 315.000, 80.000) | scale:   (0.001000, 0.003200, 0.001000) | mat: Mat_IronMan_Silver
+119: TieBar_Pectoral_Inf_R               | pos:   (0.009200, 0.003800, 0.010000) | rot: (340.000, 45.000, 280.000) | scale:   (0.001000, 0.003200, 0.001000) | mat: Mat_IronMan_Silver
+120: TieBar_Pectoral_Inf_Clevis_L        | pos:  (-0.006500, 0.004000, 0.007500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001500, 0.001500, 0.001500) | mat: Mat_IronMan_DarkMetal
+121: TieBar_Pectoral_Inf_Clevis_R        | pos:   (0.006500, 0.004000, 0.007500) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001500, 0.001500, 0.001500) | mat: Mat_IronMan_DarkMetal
+122: Harness_Intercostal_Upper_L         | pos:  (-0.018200, 0.000500, 0.004500) | rot: (18.000, 335.000, 340.000) | scale:   (0.001200, 0.007000, 0.001200) | mat: Mat_CopperCoil
+123: Harness_Intercostal_Upper_R         | pos:   (0.018200, 0.000500, 0.004500) | rot:   (18.000, 25.000, 20.000) | scale:   (0.001200, 0.007000, 0.001200) | mat: Mat_CopperCoil
+124: Harness_Intercostal_Lower_L         | pos: (-0.018200, -0.005000, 0.003500) | rot: (15.000, 335.000, 345.000) | scale:   (0.001200, 0.006500, 0.001200) | mat: Mat_CopperCoil
+125: Harness_Intercostal_Lower_R         | pos:  (0.018200, -0.005000, 0.003500) | rot:   (15.000, 25.000, 15.000) | scale:   (0.001200, 0.006500, 0.001200) | mat: Mat_CopperCoil
+126: Conduit_Intercostal_Braid_L         | pos: (-0.017000, -0.002000, 0.002000) | rot:  (12.000, 340.000, 10.000) | scale:   (0.001000, 0.011000, 0.001000) | mat: Mat_IronMan_Silver
+127: Conduit_Intercostal_Braid_R         | pos:  (0.017000, -0.002000, 0.002000) | rot:  (12.000, 20.000, 350.000) | scale:   (0.001000, 0.011000, 0.001000) | mat: Mat_IronMan_Silver
+134: Rib_PivotPin_1_L                    | pos:  (-0.018800, 0.003200, 0.000500) | rot:     (0.000, 75.000, 0.000) | scale:   (0.000800, 0.001800, 0.000800) | mat: Mat_IronMan_Silver
+135: Rib_PivotPin_1_R                    | pos:   (0.018800, 0.003200, 0.000500) | rot:    (0.000, 285.000, 0.000) | scale:   (0.000800, 0.001800, 0.000800) | mat: Mat_IronMan_Silver
+136: Rib_PivotPin_2_L                    | pos: (-0.018800, -0.002300, -0.000500) | rot:     (0.000, 75.000, 0.000) | scale:   (0.000800, 0.001800, 0.000800) | mat: Mat_IronMan_Silver
+137: Rib_PivotPin_2_R                    | pos: (0.018800, -0.002300, -0.000500) | rot:    (0.000, 285.000, 0.000) | scale:   (0.000800, 0.001800, 0.000800) | mat: Mat_IronMan_Silver
+138: Rib_PivotPin_3_L                    | pos: (-0.018800, -0.007800, -0.001500) | rot:     (0.000, 75.000, 0.000) | scale:   (0.000800, 0.001800, 0.000800) | mat: Mat_IronMan_Silver
+139: Rib_PivotPin_3_R                    | pos: (0.018800, -0.007800, -0.001500) | rot:    (0.000, 285.000, 0.000) | scale:   (0.000800, 0.001800, 0.000800) | mat: Mat_IronMan_Silver
+140: Ab_Actuator_Cylinder_L              | pos: (-0.010800, -0.006000, 0.007200) | rot:   (10.000, 350.000, 8.000) | scale:   (0.001600, 0.003200, 0.001600) | mat: Mat_IronMan_DarkMetal
+141: Ab_Actuator_Cylinder_R              | pos:  (0.010800, -0.006000, 0.007200) | rot:  (10.000, 10.000, 352.000) | scale:   (0.001600, 0.003200, 0.001600) | mat: Mat_IronMan_DarkMetal
+142: Ab_Actuator_PistonRam_L             | pos: (-0.011200, -0.009800, 0.006500) | rot:   (10.000, 350.000, 8.000) | scale:   (0.001000, 0.003000, 0.001000) | mat: Mat_IronMan_Silver
+143: Ab_Actuator_PistonRam_R             | pos:  (0.011200, -0.009800, 0.006500) | rot:  (10.000, 10.000, 352.000) | scale:   (0.001000, 0.003000, 0.001000) | mat: Mat_IronMan_Silver
+144: Ab_Actuator_Collar_L                | pos: (-0.010600, -0.003800, 0.007500) | rot:   (10.000, 350.000, 8.000) | scale:   (0.001900, 0.000600, 0.001900) | mat: Mat_IronMan_Gold
+145: Ab_Actuator_Collar_R                | pos:  (0.010600, -0.003800, 0.007500) | rot:  (10.000, 10.000, 352.000) | scale:   (0.001900, 0.000600, 0.001900) | mat: Mat_IronMan_Gold
+146: Ab_Actuator_RodEnd_L                | pos: (-0.011600, -0.013000, 0.006000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001400, 0.001400) | mat: Mat_IronMan_Silver
+147: Ab_Actuator_RodEnd_R                | pos:  (0.011600, -0.013000, 0.006000) | rot:      (0.000, 0.000, 0.000) | scale:   (0.001400, 0.001400, 0.001400) | mat: Mat_IronMan_Silver

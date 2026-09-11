@@ -1,0 +1,24 @@
+=== BOXBOT KINEMATIC SIMULATION & POSE GENERATION ===
+RepulsorPalm cylinder.up in Arm space: (0.0000, 0.0000, 1.0000)
+RepulsorPalm cylinder.up in Root space: (0.0000, 0.0000, 1.0000)
+RepulsorPalm cylinder.forward in Arm space: (0.0000, -1.0000, 0.0000)
+
+--- Anatomical Pivot Local Offsets (LeftArmPivot Space) ---
+Shoulder Joint Pivot: (0.000000, 0.000000, 0.000000)
+Elbow Joint Pivot:    (0.000000, -0.017200, 0.000000) (Dist from Shoulder = 17.200 mm)
+Wrist Joint Pivot:    (0.000000, -0.035500, 0.000000) (Dist from Elbow    = 18.300 mm)
+Repulsor Palm Emitter:(0.000000, -0.041000, -0.003800) (Dist from Wrist    = 6.685 mm)
+Total Arm Length (Shoulder to Palm): 41.176 mm
+
+--- Key Torso Landmark Positions in Root Space ---
+Serratus_L_Rib1_Red: (-0.019500, 0.051000, 0.006500)
+Serratus_L_Rib2_Gold:(-0.019000, 0.045500, 0.006000)
+Serratus_L_Rib3_Red: (-0.018000, 0.040000, 0.005500)
+Cowl_L_Trapezius:    (-0.015500, 0.064500, 0.005000)
+Pectoral_L_Sternal:  (-0.012000, 0.051500, 0.012500)
+ReactorCore:         (0.000000, 0.054000, 0.014800)
+
+--- Torso Lateral Rib Outermost X Coordinates (Root Space) ---
+Left Shoulder X: -0.029000 m
+Lateral Rib Max Extent X: -0.019500 to -0.021000 m
+Horizontal Lateral Margin (Shoulder to Ribs): 9.500 mm (9.500 mm nominal gap)
